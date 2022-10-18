@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HuellaVerde.Views.Pantalla2">
+    <StackLayout BackgroundColor="White" 
+                 VerticalOptions="FillAndExpand">
+
+        <StackLayout BackgroundColor="#017351" 
+                     VerticalOptions="StartAndExpand" 
+                     HeightRequest="80" 
+                     Orientation="Horizontal">
+            <Label Text="Datos Personales" 
+                   FontSize="25"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"
+                   Margin="20,25,0,0"
+                   FontAttributes="Bold"
+                   TextColor="White"/>
+
+            <Image Source="https://images.vexels.com/media/users/3/149837/isolated/preview/a1fefc91eda28b3ab97b9080097c96b6-dibujos-animados-de-hoja-de-arbol-verde.png"
+                   
+                   HorizontalOptions="EndAndExpand"/>
+
+        </StackLayout>
+
+
+        <Grid RowDefinitions="*,*,*,*">
+            <Image Grid.Row="0"  Source="https://images.vexels.com/media/users/3/149837/isolated/preview/a1fefc91eda28b3ab97b9080097c96b6-dibujos-animados-de-hoja-de-arbol-verde.png"
+                   Margin="0,0,0,0"
+                   HeightRequest="50"/>
+            <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="Center" Margin="0,50,0,0">
+                <Image Source="https://img2.freepng.es/20180619/tyr/kisspng-logo-computer-icons-instagram-blog-5b2900cda19e60.514448371529413837662.jpg"
+                       HeightRequest="50"/>
+                <Entry BackgroundColor="White"
+                       WidthRequest="250"
+                       VerticalOptions="Center"
+                       Placeholder="Nombre"
+                       PlaceholderColor="Gray"/>
+            </StackLayout>
+            <StackLayout Grid.Row="2" Orientation="Horizontal" HorizontalOptions="Center" Margin="0,0,0,120">
+                <Image Source="https://img2.freepng.es/20180619/tyr/kisspng-logo-computer-icons-instagram-blog-5b2900cda19e60.514448371529413837662.jpg"
+                       HeightRequest="50"
+                       HorizontalOptions="Start"/>
+                <Entry BackgroundColor="White"
+                       WidthRequest="250"
+                       VerticalOptions="Center"
+                       Placeholder="Email"
+                       PlaceholderColor="Gray"/>
+            </StackLayout>
+            <Button Grid.Row="3"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="COMENZAR"
+                    VerticalOptions="CenterAndExpand"
+                    CharacterSpacing="1.5"
+                    FontAttributes="Bold"
+                    CornerRadius="15"
+                    BackgroundColor="#A8DDB5"
+                    TextColor="#017351"
+                    WidthRequest="200"
+                    Margin="0,0,0,90"/>
+        </Grid>
+    </StackLayout>
+    
+</ContentPage>

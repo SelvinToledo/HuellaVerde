@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HuellaVerde.Views.Pantalla1">
+    <StackLayout BackgroundColor="White"
+                 VerticalOptions="FillAndExpand"
+                 >
+        <Image Source="https://images.vexels.com/media/users/3/149837/isolated/preview/a1fefc91eda28b3ab97b9080097c96b6-dibujos-animados-de-hoja-de-arbol-verde.png"
+               Margin="0,50"/>
+
+        <Label Text="¡Bienvenido a Huella 
+               Verde!" 
+               FontSize="30"
+               TextColor="Black"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="Center"/>
+        <Label Text="La aplicación que te ayuda a calcular tu huella de carbono con la realización de una serie de preguntas."
+               FontSize="20"
+               TextColor="Black"
+               HorizontalTextAlignment="Center"
+               Margin="30,40,30,0"
+               />
+               
+        <Button Text="SIGUIENTE"
+                TextColor="#017351"
+                FontAttributes="Bold"
+                CharacterSpacing="1.5"
+                BackgroundColor="#A8DDB5"
+                HorizontalOptions="CenterAndExpand"
+                CornerRadius="15"
+                WidthRequest="250"
+                Margin="0,90"
+                />
+
+
+    </StackLayout>
+</ContentPage>
