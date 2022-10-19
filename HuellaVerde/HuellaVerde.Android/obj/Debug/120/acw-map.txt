@@ -1,6 +1,9 @@
 HuellaVerde.Droid.MainActivity, HuellaVerde.Android;crc64d593d2cbf4f9ac22.MainActivity
 HuellaVerde.Droid.MainActivity;crc64d593d2cbf4f9ac22.MainActivity
 huellaverde.droid.MainActivity;crc64d593d2cbf4f9ac22.MainActivity
+HuellaVerde.Droid.splashScreen, HuellaVerde.Android;crc64d593d2cbf4f9ac22.splashScreen
+HuellaVerde.Droid.splashScreen;crc64d593d2cbf4f9ac22.splashScreen
+huellaverde.droid.splashScreen;crc64d593d2cbf4f9ac22.splashScreen
 AndroidX.Activity.IOnBackPressedDispatcherOwner, Xamarin.AndroidX.Activity;androidx.activity.OnBackPressedDispatcherOwner
 AndroidX.Activity.IOnBackPressedDispatcherOwner;androidx.activity.OnBackPressedDispatcherOwner
 androidx.activity.OnBackPressedDispatcherOwner;androidx.activity.OnBackPressedDispatcherOwner

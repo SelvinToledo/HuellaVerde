@@ -9878,43 +9878,45 @@ public final class R {
     public static final int ic_mtrl_chip_checked_black=0x7f070068;
     public static final int ic_mtrl_chip_checked_circle=0x7f070069;
     public static final int ic_mtrl_chip_close_circle=0x7f07006a;
-    public static final int material_cursor_drawable=0x7f07006b;
-    public static final int material_ic_calendar_black_24dp=0x7f07006c;
-    public static final int material_ic_clear_black_24dp=0x7f07006d;
-    public static final int material_ic_edit_black_24dp=0x7f07006e;
-    public static final int material_ic_keyboard_arrow_left_black_24dp=0x7f07006f;
-    public static final int material_ic_keyboard_arrow_next_black_24dp=0x7f070070;
-    public static final int material_ic_keyboard_arrow_previous_black_24dp=0x7f070071;
-    public static final int material_ic_keyboard_arrow_right_black_24dp=0x7f070072;
-    public static final int material_ic_menu_arrow_down_black_24dp=0x7f070073;
-    public static final int material_ic_menu_arrow_up_black_24dp=0x7f070074;
-    public static final int mtrl_dialog_background=0x7f070075;
-    public static final int mtrl_dropdown_arrow=0x7f070076;
-    public static final int mtrl_ic_arrow_drop_down=0x7f070077;
-    public static final int mtrl_ic_arrow_drop_up=0x7f070078;
-    public static final int mtrl_ic_cancel=0x7f070079;
-    public static final int mtrl_ic_error=0x7f07007a;
-    public static final int mtrl_navigation_bar_item_background=0x7f07007b;
-    public static final int mtrl_popupmenu_background=0x7f07007c;
-    public static final int mtrl_popupmenu_background_dark=0x7f07007d;
-    public static final int mtrl_tabs_default_indicator=0x7f07007e;
-    public static final int navigation_empty_icon=0x7f07007f;
-    public static final int notification_action_background=0x7f070080;
-    public static final int notification_bg=0x7f070081;
-    public static final int notification_bg_low=0x7f070082;
-    public static final int notification_bg_low_normal=0x7f070083;
-    public static final int notification_bg_low_pressed=0x7f070084;
-    public static final int notification_bg_normal=0x7f070085;
-    public static final int notification_bg_normal_pressed=0x7f070086;
-    public static final int notification_icon_background=0x7f070087;
-    public static final int notification_template_icon_bg=0x7f070088;
-    public static final int notification_template_icon_low_bg=0x7f070089;
-    public static final int notification_tile_bg=0x7f07008a;
-    public static final int notify_panel_notification_icon_bg=0x7f07008b;
-    public static final int preference_list_divider_material=0x7f07008c;
-    public static final int test_custom_background=0x7f07008d;
-    public static final int tooltip_frame_dark=0x7f07008e;
-    public static final int tooltip_frame_light=0x7f07008f;
+    public static final int iconohuella=0x7f07006b;
+    public static final int layout1=0x7f07006c;
+    public static final int material_cursor_drawable=0x7f07006d;
+    public static final int material_ic_calendar_black_24dp=0x7f07006e;
+    public static final int material_ic_clear_black_24dp=0x7f07006f;
+    public static final int material_ic_edit_black_24dp=0x7f070070;
+    public static final int material_ic_keyboard_arrow_left_black_24dp=0x7f070071;
+    public static final int material_ic_keyboard_arrow_next_black_24dp=0x7f070072;
+    public static final int material_ic_keyboard_arrow_previous_black_24dp=0x7f070073;
+    public static final int material_ic_keyboard_arrow_right_black_24dp=0x7f070074;
+    public static final int material_ic_menu_arrow_down_black_24dp=0x7f070075;
+    public static final int material_ic_menu_arrow_up_black_24dp=0x7f070076;
+    public static final int mtrl_dialog_background=0x7f070077;
+    public static final int mtrl_dropdown_arrow=0x7f070078;
+    public static final int mtrl_ic_arrow_drop_down=0x7f070079;
+    public static final int mtrl_ic_arrow_drop_up=0x7f07007a;
+    public static final int mtrl_ic_cancel=0x7f07007b;
+    public static final int mtrl_ic_error=0x7f07007c;
+    public static final int mtrl_navigation_bar_item_background=0x7f07007d;
+    public static final int mtrl_popupmenu_background=0x7f07007e;
+    public static final int mtrl_popupmenu_background_dark=0x7f07007f;
+    public static final int mtrl_tabs_default_indicator=0x7f070080;
+    public static final int navigation_empty_icon=0x7f070081;
+    public static final int notification_action_background=0x7f070082;
+    public static final int notification_bg=0x7f070083;
+    public static final int notification_bg_low=0x7f070084;
+    public static final int notification_bg_low_normal=0x7f070085;
+    public static final int notification_bg_low_pressed=0x7f070086;
+    public static final int notification_bg_normal=0x7f070087;
+    public static final int notification_bg_normal_pressed=0x7f070088;
+    public static final int notification_icon_background=0x7f070089;
+    public static final int notification_template_icon_bg=0x7f07008a;
+    public static final int notification_template_icon_low_bg=0x7f07008b;
+    public static final int notification_tile_bg=0x7f07008c;
+    public static final int notify_panel_notification_icon_bg=0x7f07008d;
+    public static final int preference_list_divider_material=0x7f07008e;
+    public static final int test_custom_background=0x7f07008f;
+    public static final int tooltip_frame_dark=0x7f070090;
+    public static final int tooltip_frame_light=0x7f070091;
   }
   public static final class id {
     public static final int ALT=0x7f080000;
@@ -10609,9 +10611,9 @@ public final class R {
     public static final int toolbar=0x7f0b0094;
   }
   public static final class mipmap {
-    public static final int icon=0x7f0c0000;
-    public static final int icon_round=0x7f0c0001;
-    public static final int launcher_foreground=0x7f0c0002;
+    public static final int ic_launcher=0x7f0c0000;
+    public static final int icon=0x7f0c0001;
+    public static final int icon_round=0x7f0c0002;
   }
   public static final class plurals {
     public static final int mtrl_badge_content_description=0x7f0d0000;
@@ -11512,6 +11514,7 @@ public final class R {
      */
     public static final int scrollViewScrollBars=0x7f0f02f9;
     public static final int scrollViewTheme=0x7f0f02fa;
+    public static final int temasplash=0x7f0f02fb;
   }
   public static final class styleable {
     /**
