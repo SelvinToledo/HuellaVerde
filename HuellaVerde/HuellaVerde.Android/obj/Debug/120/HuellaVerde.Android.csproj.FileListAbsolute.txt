@@ -685,16 +685,6 @@ C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\val
 C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\values\colors.xml
 C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-anydpi-v26\icon.xml
 C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-anydpi-v26\icon_round.xml
-C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-hdpi\icon.png
-C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-hdpi\launcher_foreground.png
-C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-mdpi\icon.png
-C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-mdpi\launcher_foreground.png
-C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-xhdpi\icon.png
-C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-xhdpi\launcher_foreground.png
-C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-xxhdpi\icon.png
-C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-xxhdpi\launcher_foreground.png
-C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-xxxhdpi\icon.png
-C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-xxxhdpi\launcher_foreground.png
 C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\iconohuella.png
 C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\layout1.xml
 C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\uploadflags.txt
@@ -1267,3 +1257,9 @@ C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\stamp\_
 C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\stamp\_GenerateJavaStubs.stamp
 C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\stamp\_GeneratePackageManagerJava.stamp
 C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\stamp\_ResolveLibraryProjectImports.stamp
+C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-hdpi\ic_launcher.png
+C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-ldpi\ic_launcher.png
+C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-mdpi\ic_launcher.png
+C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-xhdpi\ic_launcher.png
+C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-xxhdpi\ic_launcher.png
+C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-xxxhdpi\ic_launcher.png
