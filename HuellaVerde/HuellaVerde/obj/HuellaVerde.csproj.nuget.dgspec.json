@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Selvin Toledo\\Desktop\\MATERIAS\\HuellaVerde\\HuellaVerde\\HuellaVerde\\HuellaVerde.csproj": {}
+    "C:\\HuellaVerde\\HuellaVerde\\HuellaVerde\\HuellaVerde\\HuellaVerde.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Selvin Toledo\\Desktop\\MATERIAS\\HuellaVerde\\HuellaVerde\\HuellaVerde\\HuellaVerde.csproj": {
+    "C:\\HuellaVerde\\HuellaVerde\\HuellaVerde\\HuellaVerde\\HuellaVerde.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Selvin Toledo\\Desktop\\MATERIAS\\HuellaVerde\\HuellaVerde\\HuellaVerde\\HuellaVerde.csproj",
+        "projectUniqueName": "C:\\HuellaVerde\\HuellaVerde\\HuellaVerde\\HuellaVerde\\HuellaVerde.csproj",
         "projectName": "HuellaVerde",
-        "projectPath": "C:\\Users\\Selvin Toledo\\Desktop\\MATERIAS\\HuellaVerde\\HuellaVerde\\HuellaVerde\\HuellaVerde.csproj",
-        "packagesPath": "C:\\Users\\Selvin Toledo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Selvin Toledo\\Desktop\\MATERIAS\\HuellaVerde\\HuellaVerde\\HuellaVerde\\obj\\",
+        "projectPath": "C:\\HuellaVerde\\HuellaVerde\\HuellaVerde\\HuellaVerde\\HuellaVerde.csproj",
+        "packagesPath": "C:\\Users\\ferna\\.nuget\\packages\\",
+        "outputPath": "C:\\HuellaVerde\\HuellaVerde\\HuellaVerde\\HuellaVerde\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Selvin Toledo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ferna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -71,7 +71,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
