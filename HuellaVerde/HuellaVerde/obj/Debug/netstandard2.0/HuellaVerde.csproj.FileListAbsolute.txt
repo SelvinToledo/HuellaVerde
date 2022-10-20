@@ -30,3 +30,4 @@ C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Huel
 C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\refint\HuellaVerde.dll
 C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\HuellaVerde.pdb
 C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\ref\HuellaVerde.dll
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Views\Resultados.xaml.g.cs

@@ -11,42 +11,48 @@
                      HeightRequest="80" 
                      Orientation="Horizontal">
             <Label Text="Datos Personales" 
-                   FontSize="25"
+                   FontSize="20"
                    HorizontalTextAlignment="Center"
                    VerticalTextAlignment="Center"
                    Margin="20,25,0,0"
                    FontAttributes="Bold"
                    TextColor="White"/>
 
-            <Image Source="https://images.vexels.com/media/users/3/149837/isolated/preview/a1fefc91eda28b3ab97b9080097c96b6-dibujos-animados-de-hoja-de-arbol-verde.png"
-                   
-                   HorizontalOptions="EndAndExpand"/>
+            <Image Source="info"
+                   WidthRequest="30"
+                   HorizontalOptions="CenterAndExpand"
+                   Margin="85,0,0,0"/>
 
         </StackLayout>
 
 
         <Grid RowDefinitions="*,*,*,*">
-            <Image Grid.Row="0"  Source="https://images.vexels.com/media/users/3/149837/isolated/preview/a1fefc91eda28b3ab97b9080097c96b6-dibujos-animados-de-hoja-de-arbol-verde.png"
-                   Margin="0,0,0,0"
-                   HeightRequest="50"/>
-            <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="Center" Margin="0,50,0,0">
-                <Image Source="https://img2.freepng.es/20180619/tyr/kisspng-logo-computer-icons-instagram-blog-5b2900cda19e60.514448371529413837662.jpg"
-                       HeightRequest="50"/>
+            <StackLayout Grid.Row="0" >
+                <Image Grid.Row="0"  
+                   Source="IconoHuellasinfondo"
+                   WidthRequest="250"/>
+            </StackLayout>
+            
+            <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="Center" Margin="0,60,0,0">
+                <Image Source="user"
+                       HeightRequest="45"/>
                 <Entry BackgroundColor="White"
-                       WidthRequest="250"
+                       WidthRequest="210"
                        VerticalOptions="Center"
                        Placeholder="Nombre"
-                       PlaceholderColor="Gray"/>
+                       PlaceholderColor="Gray"
+                       HorizontalTextAlignment="Center"/>
             </StackLayout>
-            <StackLayout Grid.Row="2" Orientation="Horizontal" HorizontalOptions="Center" Margin="0,0,0,120">
-                <Image Source="https://img2.freepng.es/20180619/tyr/kisspng-logo-computer-icons-instagram-blog-5b2900cda19e60.514448371529413837662.jpg"
-                       HeightRequest="50"
+            <StackLayout Grid.Row="2" Orientation="Horizontal" HorizontalOptions="Center" Margin="0,0,0,60">
+                <Image Source="email"
+                       HeightRequest="45"
                        HorizontalOptions="Start"/>
                 <Entry BackgroundColor="White"
-                       WidthRequest="250"
+                       WidthRequest="210"
                        VerticalOptions="Center"
                        Placeholder="Email"
-                       PlaceholderColor="Gray"/>
+                       PlaceholderColor="Gray"
+                       HorizontalTextAlignment="Center"/>
             </StackLayout>
             <Button Grid.Row="3"
                     HorizontalOptions="CenterAndExpand"

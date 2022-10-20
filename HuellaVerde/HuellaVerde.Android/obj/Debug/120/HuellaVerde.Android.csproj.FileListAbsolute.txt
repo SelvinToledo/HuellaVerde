@@ -52,16 +52,6 @@ C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Andr
 C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\values\colors.xml
 C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-anydpi-v26\icon.xml
 C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-anydpi-v26\icon_round.xml
-C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-hdpi\icon.png
-C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-hdpi\launcher_foreground.png
-C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-mdpi\icon.png
-C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-mdpi\launcher_foreground.png
-C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-xhdpi\icon.png
-C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-xhdpi\launcher_foreground.png
-C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-xxhdpi\icon.png
-C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-xxhdpi\launcher_foreground.png
-C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-xxxhdpi\icon.png
-C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-xxxhdpi\launcher_foreground.png
 C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\uploadflags.txt
 C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\resolvedassemblies.hash
 C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\android\assets\FormsViewGroup.dll
@@ -1263,3 +1253,31 @@ C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mip
 C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-xhdpi\ic_launcher.png
 C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-xxhdpi\ic_launcher.png
 C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-xxxhdpi\ic_launcher.png
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\iconohuella.png
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\layout1.xml
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-hdpi\ic_launcher.png
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-ldpi\ic_launcher.png
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-mdpi\ic_launcher.png
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-xhdpi\ic_launcher.png
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-xxhdpi\ic_launcher.png
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\mipmap-xxxhdpi\ic_launcher.png
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\android\src\crc64d593d2cbf4f9ac22\splashScreen.java
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\resultados.png
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\ropa.png
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\transporte.png
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\user.png
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\alimentos.png
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\areasverdes.png
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\basura.png
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\botella.png
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\bulb.png
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\combustibleecologico.png
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\construccion.png
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\email.png
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\energia.png
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\flecha.png
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\hogar.png
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\hogaract.png
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\huella.png
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\iconohuellasinfondo.png
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\info.png
