@@ -2,7 +2,21 @@
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HuellaVerde.App">
+    
     <Application.Resources>
-
+        <ResourceDictionary>
+            <Style x:Key="btnContinuar" TargetType="Button">
+                <Setter Property="Text" Value="Continuar"/>
+                <Setter Property="BackgroundColor" Value="#017351"/>
+                <Setter Property="TextTransform" Value="None"/>
+                <Setter Property="WidthRequest" Value="130"/>
+                <Setter Property="CornerRadius" Value="15"/>
+                <Setter Property="HorizontalOptions" Value="EndAndExpand"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+                <Setter Property="Margin" Value="0,-40,20,0"/>
+                <Setter Property="FontSize" Value="18"/>
+            </Style>
+        </ResourceDictionary>
     </Application.Resources>
+    
 </Application>

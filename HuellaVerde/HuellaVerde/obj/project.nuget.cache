@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "PXbBClN90V5A7BkKiFEnRwI95cmG69gkvlPFzGou7B8YnD5Nbmkl8xFn2HMQoy2p/vn5xTjVi29IIFU//6/ZUw==",
+  "dgSpecHash": "QEMn0+ZTRMYzyJmOINnX583HiIHkiRFVhNA3SJR7DH7/BgQUXWsQinOojlTpY49zONS4wAXmsOUtWJT64LhcKA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Selvin Toledo\\Desktop\\MATERIAS\\HuellaVerde\\HuellaVerde\\HuellaVerde\\HuellaVerde.csproj",
+  "projectFilePath": "C:\\HuellaVerde\\HuellaVerde\\HuellaVerde\\HuellaVerde\\HuellaVerde.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Selvin Toledo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Selvin Toledo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\Selvin Toledo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\Selvin Toledo\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\Selvin Toledo\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\ferna\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ferna\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\ferna\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\ferna\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\ferna\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }

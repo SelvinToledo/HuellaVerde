@@ -2,14 +2,16 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HuellaVerde.Views.Pantalla2"
-             >
+             NavigationPage.HasNavigationBar="False">
+    
     <StackLayout BackgroundColor="White" 
                  VerticalOptions="FillAndExpand">
 
         <StackLayout BackgroundColor="#017351" 
-                     VerticalOptions="StartAndExpand" 
+                     VerticalOptions="StartAndExpand"
                      HeightRequest="80" 
                      Orientation="Horizontal">
+
             <Label Text="Datos Personales" 
                    FontSize="20"
                    HorizontalTextAlignment="Center"
@@ -20,41 +22,68 @@
 
             <Image Source="info"
                    WidthRequest="30"
-                   HorizontalOptions="CenterAndExpand"
-                   Margin="85,0,0,0"/>
+                   HorizontalOptions="EndAndExpand"
+                   Margin="20">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding btnInfocommand}"/>
+                </Image.GestureRecognizers>
+            </Image>
 
         </StackLayout>
 
-
-        <Grid RowDefinitions="*,*,*,*">
+        <Grid RowDefinitions="*,80,2,80,2,*">
             <StackLayout Grid.Row="0" >
                 <Image Grid.Row="0"  
                    Source="IconoHuellasinfondo"
-                   WidthRequest="250"/>
+                   WidthRequest="350"/>
             </StackLayout>
-            
-            <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="Center" Margin="0,60,0,0">
+
+            <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" WidthRequest="350">
+
                 <Image Source="user"
-                       HeightRequest="45"/>
-                <Entry BackgroundColor="White"
-                       WidthRequest="210"
-                       VerticalOptions="Center"
+                       HeightRequest="45"
+                       HorizontalOptions="StartAndExpand"/>
+
+                <Entry WidthRequest="300"
+                       BackgroundColor="White"
                        Placeholder="Nombre"
                        PlaceholderColor="Gray"
-                       HorizontalTextAlignment="Center"/>
+                       HorizontalOptions="CenterAndExpand"
+                       HorizontalTextAlignment="Center"
+                       TextColor="Black"/>
+
+                
             </StackLayout>
-            <StackLayout Grid.Row="2" Orientation="Horizontal" HorizontalOptions="Center" Margin="0,0,0,60">
+
+            <StackLayout BackgroundColor="#03C383"
+                         Grid.Row="2"
+                         HorizontalOptions="Center"
+                         WidthRequest="350"
+                         Margin="0,-15,0,15"/>
+
+            <StackLayout Grid.Row="3" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" WidthRequest="350">
+                
                 <Image Source="email"
                        HeightRequest="45"
-                       HorizontalOptions="Start"/>
+                       HorizontalOptions="StartAndExpand"/>
+
                 <Entry BackgroundColor="White"
-                       WidthRequest="210"
-                       VerticalOptions="Center"
+                       WidthRequest="300"
                        Placeholder="Email"
                        PlaceholderColor="Gray"
-                       HorizontalTextAlignment="Center"/>
+                       HorizontalOptions="CenterAndExpand"
+                       HorizontalTextAlignment="Center"
+                       TextColor="Black"/>
+                
             </StackLayout>
-            <Button Grid.Row="3"
+
+            <StackLayout BackgroundColor="#03C383"
+                         Grid.Row="4"
+                         HorizontalOptions="Center"
+                         WidthRequest="350"
+                         Margin="0,-15,0,15"/>
+
+            <Button Grid.Row="5"
                     HorizontalOptions="CenterAndExpand"
                     Text="COMENZAR"
                     VerticalOptions="CenterAndExpand"
@@ -64,7 +93,8 @@
                     BackgroundColor="#A8DDB5"
                     TextColor="#017351"
                     WidthRequest="200"
-                    Margin="0,0,0,90"/>
+                    Margin="0,0,0,90"
+                    Command="{Binding btnComenzarcommand}"/>
         </Grid>
     </StackLayout>
     

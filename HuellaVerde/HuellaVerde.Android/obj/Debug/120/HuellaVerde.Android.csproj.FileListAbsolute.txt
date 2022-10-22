@@ -1281,3 +1281,22 @@ C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Andr
 C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\huella.png
 C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\iconohuellasinfondo.png
 C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\info.png
+C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\resultados.png
+C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\ropa.png
+C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\transporte.png
+C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\user.png
+C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\alimentos.png
+C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\areasverdes.png
+C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\basura.png
+C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\botella.png
+C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\bulb.png
+C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\combustibleecologico.png
+C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\construccion.png
+C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\email.png
+C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\energia.png
+C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\flecha.png
+C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\hogar.png
+C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\hogaract.png
+C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\huella.png
+C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\iconohuellasinfondo.png
+C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde.Android\obj\Debug\120\res\drawable\info.png

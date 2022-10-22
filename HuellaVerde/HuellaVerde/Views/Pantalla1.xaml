@@ -1,11 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="HuellaVerde.Views.Pantalla1">
+             x:Class="HuellaVerde.Views.Pantalla1"
+             NavigationPage.HasNavigationBar="False">
+    
     <StackLayout BackgroundColor="White"
                  VerticalOptions="FillAndExpand"
                  >
-        <Image Source="https://images.vexels.com/media/users/3/149837/isolated/preview/a1fefc91eda28b3ab97b9080097c96b6-dibujos-animados-de-hoja-de-arbol-verde.png"
+        <Image Source="huella.png"
+               HeightRequest="300"
                Margin="0,50"/>
 
         <Label Text="¡Bienvenido a Huella 
@@ -30,6 +33,7 @@
                 CornerRadius="15"
                 WidthRequest="250"
                 Margin="0,90"
+                Command="{Binding btnSiguientecommand}"
                 />
 
 
