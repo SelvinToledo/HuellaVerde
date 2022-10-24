@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HuellaVerde.Views.Transporte"
+             NavigationPage.HasNavigationBar="False">
+
+    <Grid RowDefinitions="45,100,*,100" BackgroundColor="White">
+        <Image Source="flecha.png"
+               Grid.Row="0"
+               HorizontalOptions="Start"
+               Margin="20,20,0,0">
+
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding btnRegresarcommand}"/>
+            </Image.GestureRecognizers>
+        </Image>
+
+        <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+
+            <Image Source="combustibleecologico.png"/>
+
+            <Label Text="Transporte"
+                   TextColor="#797A97"
+                   FontAttributes="Bold"
+                   FontSize="32"
+                   VerticalOptions="Center"/>
+
+        </StackLayout>
+
+        <ScrollView Grid.Row="2">
+
+            <Grid ColumnDefinitions="*,300" RowDefinitions="*,*,*" Margin="0,100,0,200">
+                <Label
+                    Grid.Column="0"
+                    Grid.Row="0"
+                    Text="Vehiculos"
+                    TextColor="Black"
+                    FontSize="22"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    />
+                <Picker Grid.Column="1" Grid.Row="0"
+                        Title="-Seleccionar-"
+                        TitleColor="Gray"
+                        TextColor="Gray"
+                        HorizontalOptions="CenterAndExpand">
+                    <Picker.Items>
+                        <x:String>Tengo 1 vehiculo motorizado</x:String>
+                        <x:String>1+ vehiculos motorizados</x:String>
+                        <x:String>Camino</x:String>
+                        <x:String>Utilizo bicicleta</x:String>
+                        <x:String>Utilizo transporte público</x:String>
+                    </Picker.Items>
+
+                </Picker>
+                <Label
+                    Grid.Column="0"
+                    Grid.Row="1"
+                    Text="Tiempo de transporte"
+                    TextColor="Black"
+                    FontSize="22"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    />
+
+                <Picker Grid.Column="1" Grid.Row="1"
+                        Title="-Seleccionar-"
+                        TitleColor="Gray"
+                        TextColor="Gray"
+                        HorizontalOptions="CenterAndExpand">
+                    <Picker.Items>
+                        <x:String>30 min - 2 horas</x:String>
+                        <x:String>2 horas - 3 horas</x:String>
+                        <x:String>Mas de 3 horas</x:String>
+                    </Picker.Items>
+
+                </Picker>
+
+                <Label
+                    Grid.Column="0"
+                    Grid.Row="2"
+                    Text="Viajes en aviones"
+                    TextColor="Black"
+                    FontSize="22"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    />
+
+                <Picker Grid.Column="1" Grid.Row="2"
+                        Title="-Seleccionar-"
+                        TitleColor="Gray"
+                        TextColor="Gray"
+                        HorizontalOptions="CenterAndExpand">
+                    <Picker.Items>
+                        <x:String>Mucho</x:String>
+                        <x:String>A menudo</x:String>
+                        <x:String>Poco</x:String>
+                        <x:String>Nunca</x:String>
+                      
+                    </Picker.Items>
+
+                </Picker>
+            </Grid>
+            
+        </ScrollView>
+
+        <Button Grid.Row="3"
+                Style="{StaticResource btnContinuar}"
+                Command="{Binding btnContinuarcommand}"/>
+
+    </Grid>
+
+</ContentPage>

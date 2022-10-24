@@ -31,3 +31,12 @@ C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\refi
 C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\HuellaVerde.pdb
 C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\ref\HuellaVerde.dll
 C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Views\Resultados.xaml.g.cs
+C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Views\Alimentos.xaml.g.cs
+C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Views\Hogar.xaml.g.cs
+C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Views\Resultados.xaml.g.cs
+C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Views\Transporte.xaml.g.cs
+C:\HuellaVerde\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Views\Residuos.xaml.g.cs
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Views\Alimentos.xaml.g.cs
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Views\Hogar.xaml.g.cs
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Views\Residuos.xaml.g.cs
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Views\Transporte.xaml.g.cs
