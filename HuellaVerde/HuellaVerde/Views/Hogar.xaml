@@ -22,9 +22,102 @@
 
         </StackLayout>
 
-        <CollectionView Grid.Row="2" BackgroundColor="White">
+        <ScrollView Grid.Row="2">
 
-        </CollectionView>
+            <Grid ColumnDefinitions="*,*" RowDefinitions="*,*,*,*">
+                <Label
+                    Grid.Column="0"
+                    Grid.Row="0"
+                    Text="Aire acondicionado"
+                    TextColor="Black"
+                    FontSize="22"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    />
+                <Picker Grid.Column="1" Grid.Row="0"
+                        Title="-Seleccionar-"
+                        TitleColor="Gray"
+                        TextColor="Gray"
+                        HorizontalOptions="CenterAndExpand">
+                    <Picker.Items>
+                        <x:String>Tengo 1 </x:String>
+                        <x:String>Tengo más de 1</x:String>
+                        <x:String>No tengo </x:String>
+                    </Picker.Items>
+
+                </Picker>
+                
+                <Label
+                    Grid.Column="0"
+                    Grid.Row="1"
+                    Text="Ecotecnia"
+                    TextColor="Black"
+                    FontSize="22"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    />
+                <Picker Grid.Column="1" Grid.Row="1"
+                        Title="-Seleccionar-"
+                        TitleColor="Gray"
+                        TextColor="Gray"
+                        HorizontalOptions="CenterAndExpand">
+                    <Picker.Items>
+                        <x:String>Realizo 1</x:String>
+                        <x:String>Realizo más de 1</x:String>
+                        <x:String>Desconozco el significado</x:String>
+                    </Picker.Items>
+
+                </Picker>
+
+                <Label
+                    Grid.Column="0"
+                    Grid.Row="2"
+                    Text="Paneles solares"
+                    TextColor="Black"
+                    FontSize="22"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    />
+                <Picker Grid.Column="1" Grid.Row="2"
+                        Title="-Seleccionar-"
+                        TitleColor="Gray"
+                        TextColor="Gray"
+                        HorizontalOptions="CenterAndExpand">
+                    <Picker.Items>
+                        <x:String>Tengo 1</x:String>
+                        <x:String>Tengo más de 1</x:String>
+                        <x:String>No tengo</x:String>
+                    </Picker.Items>
+
+                </Picker>
+
+                <Label
+                    Grid.Column="0"
+                    Grid.Row="3"
+                    Text="Número de habitaciones"
+                    TextColor="Black"
+                    FontSize="22"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    />
+                <Picker Grid.Column="1" Grid.Row="3"
+                        Title="-Seleccionar-"
+                        TitleColor="Gray"
+                        TextColor="Gray"
+                        HorizontalOptions="CenterAndExpand">
+                    <Picker.Items>
+                        <x:String>Tengo 1</x:String>
+                        <x:String>Tengo más de 1</x:String>
+                        <x:String>No tengo</x:String>
+                    </Picker.Items>
+
+                </Picker>
+
+
+            </Grid>
+            
+            
+        </ScrollView>
 
         <Button Grid.Row="3"
                 Style="{StaticResource btnContinuar}"

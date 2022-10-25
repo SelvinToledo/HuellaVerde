@@ -27,9 +27,59 @@
 
         </StackLayout>
 
-        <CollectionView Grid.Row="2" BackgroundColor="White">
+        <ScrollView Grid.Row="2">
 
-        </CollectionView>
+            <Grid ColumnDefinitions="*,*" RowDefinitions="*,*" Margin="0,100,0,100">
+                <Label
+                    Grid.Column="0"
+                    Grid.Row="0"
+                    Text="Tipos de carne de consumo frecuente"
+                    TextColor="Black"
+                    FontSize="22"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    />
+                <Picker Grid.Column="1" Grid.Row="0"
+                        Title="-Seleccionar-"
+                        TitleColor="Gray"
+                        TextColor="Gray"
+                        HorizontalOptions="CenterAndExpand">
+                    <Picker.Items>
+                        <x:String>Pollo</x:String>
+                        <x:String>Res</x:String>
+                        <x:String>Pescado</x:String>
+                        <x:String>Cerdo</x:String>
+                        <x:String>No consumo carne</x:String>
+                    </Picker.Items>
+
+                </Picker>
+
+                <Label
+                    Grid.Column="0"
+                    Grid.Row="1"
+                    Text="Consumo de alimentos"
+                    TextColor="Black"
+                    FontSize="22"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    />
+                
+                <Picker Grid.Column="1" Grid.Row="1"
+                        Title="-Seleccionar-"
+                        TitleColor="Gray"
+                        TextColor="Gray"
+                        HorizontalOptions="CenterAndExpand">
+                    <Picker.Items>
+                        <x:String>Tengo un huerto</x:String>
+                        <x:String>Voy al supermercado</x:String>
+                        <x:String>Consumo en mercados locales</x:String>
+                    </Picker.Items>
+
+                </Picker>
+            </Grid>
+            
+            
+        </ScrollView>
 
         <Button Grid.Row="3"
                 Style="{StaticResource btnContinuar}"

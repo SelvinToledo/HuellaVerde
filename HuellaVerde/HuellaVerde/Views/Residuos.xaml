@@ -27,10 +27,82 @@
                    VerticalOptions="Center"/>
             
         </StackLayout>
-        
-        <CollectionView Grid.Row="2" BackgroundColor="White">
+
+        <ScrollView Grid.Row="2">
+
+            <Grid RowDefinitions="*,*,*" ColumnDefinitions="*,*">
+                <Label
+                    Grid.Column="0"
+                    Grid.Row="0"
+                    Text="Plasticos de un solo uso"
+                    TextColor="Black"
+                    FontSize="22"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    />
+                <Picker Grid.Column="1" Grid.Row="0"
+                        Title="-Seleccionar-"
+                        TitleColor="Gray"
+                        TextColor="Gray"
+                        HorizontalOptions="CenterAndExpand">
+                    <Picker.Items>
+                        <x:String>Utilizo mucho</x:String>
+                        <x:String>Utilizo a menudo</x:String>
+                        <x:String>Utilizo muy poco</x:String>
+                        <x:String>No utilizo</x:String>
+                    </Picker.Items>
+
+                </Picker>
+
+                <Label
+                    Grid.Column="0"
+                    Grid.Row="1"
+                    Text="Generación de basura x semana"
+                    TextColor="Black"
+                    FontSize="22"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    />
+                <Picker Grid.Column="1" Grid.Row="1"
+                        Title="-Seleccionar-"
+                        TitleColor="Gray"
+                        TextColor="Gray"
+                        HorizontalOptions="CenterAndExpand">
+                    <Picker.Items>
+                        <x:String>1 bolsa grande de basura</x:String>
+                        <x:String>1 bote grande de basura</x:String>
+                        <x:String>Mas de un bote grande de basura</x:String>
+                    </Picker.Items>
+
+                </Picker>
+
+                <Label
+                    Grid.Column="0"
+                    Grid.Row="2"
+                    Text="Reciclaje"
+                    TextColor="Black"
+                    FontSize="22"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    />
+                <Picker Grid.Column="1" Grid.Row="2"
+                        Title="-Seleccionar-"
+                        TitleColor="Gray"
+                        TextColor="Gray"
+                        HorizontalOptions="CenterAndExpand">
+                    <Picker.Items>
+                        <x:String>Realizo muy frecuentemente</x:String>
+                        <x:String>Realizo a menudo</x:String>
+                        <x:String>Poco</x:String>
+                        <x:String>Nunca</x:String>
+                    </Picker.Items>
+
+                </Picker>
+
+            </Grid>
             
-        </CollectionView>
+            
+        </ScrollView>
         
         <Button Grid.Row="3"
                 Style="{StaticResource btnContinuar}"
