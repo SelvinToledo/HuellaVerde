@@ -5,13 +5,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
+using HuellaVerde.ViewModel;
 
 namespace HuellaVerde.ViewModel
 {
     public class VMAlimentos:BaseViewModel
     {
+        VMTransporte T;
+        
+
         #region VARIABLES
         string _Texto;
+        int ContadorGeneralA = 0;
         #endregion
         #region CONSTRUCTOR
         public VMAlimentos(INavigation navigation)
@@ -29,6 +34,7 @@ namespace HuellaVerde.ViewModel
         #region PROCESOS
         public async Task btnContinuar()
         {
+            AsignaAlimentos(T);//Anda mal esto
             await Navigation.PushAsync(new Hogar());
         }
         public async Task btnRegresar()
@@ -38,6 +44,11 @@ namespace HuellaVerde.ViewModel
         public void ProcesoSimple()
         {
 
+        }
+        public void AsignaAlimentos(VMTransporte P)
+        {
+            ContadorGeneralA = P.ContadorGlobal;
+            Console.WriteLine(ContadorGeneralA);
         }
         #endregion
         #region COMANDOS

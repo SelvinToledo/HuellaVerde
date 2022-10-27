@@ -16,6 +16,10 @@
             
         </Image>
 
+        <Label Text="{Binding ContadorGlobal}"
+                   TextColor="Red"
+                   VerticalOptions="End"/>
+
         <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
             
             <Image Source="basura.png"/>
@@ -44,14 +48,16 @@
                         Title="-Seleccionar-"
                         TitleColor="Gray"
                         TextColor="Gray"
-                        HorizontalOptions="CenterAndExpand">
-                    <Picker.Items>
-                        <x:String>Utilizo mucho</x:String>
-                        <x:String>Utilizo a menudo</x:String>
-                        <x:String>Utilizo muy poco</x:String>
-                        <x:String>No utilizo</x:String>
-                    </Picker.Items>
-
+                        HorizontalOptions="CenterAndExpand"
+                        SelectedItem="{Binding SeleccionR1}">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Utilizo mucho</x:String>
+                            <x:String>Utilizo a menudo</x:String>
+                            <x:String>Utilizo muy poco</x:String>
+                            <x:String>No utilizo</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
                 </Picker>
 
                 <Label
@@ -67,12 +73,15 @@
                         Title="-Seleccionar-"
                         TitleColor="Gray"
                         TextColor="Gray"
-                        HorizontalOptions="CenterAndExpand">
-                    <Picker.Items>
-                        <x:String>1 bolsa grande de basura</x:String>
-                        <x:String>1 bote grande de basura</x:String>
-                        <x:String>Mas de un bote grande de basura</x:String>
-                    </Picker.Items>
+                        HorizontalOptions="CenterAndExpand"
+                        SelectedItem="{Binding SeleccionR2}">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>1 bolsa grande de basura</x:String>
+                            <x:String>1 bote grande de basura</x:String>
+                            <x:String>Mas de un bote grande de basura</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
 
                 </Picker>
 
@@ -89,13 +98,16 @@
                         Title="-Seleccionar-"
                         TitleColor="Gray"
                         TextColor="Gray"
-                        HorizontalOptions="CenterAndExpand">
-                    <Picker.Items>
-                        <x:String>Realizo muy frecuentemente</x:String>
-                        <x:String>Realizo a menudo</x:String>
-                        <x:String>Poco</x:String>
-                        <x:String>Nunca</x:String>
-                    </Picker.Items>
+                        HorizontalOptions="CenterAndExpand"
+                        SelectedItem="{Binding SeleccionR3}">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Realizo muy frecuentemente</x:String>
+                            <x:String>Realizo a menudo</x:String>
+                            <x:String>Poco</x:String>
+                            <x:String>Nunca</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
 
                 </Picker>
 
@@ -106,7 +118,7 @@
         
         <Button Grid.Row="3"
                 Style="{StaticResource btnContinuar}"
-                Command="{Binding btnContinuarcommand}"/>
+                Command="{Binding calculo}"/>
         
     </Grid>
 </ContentPage>

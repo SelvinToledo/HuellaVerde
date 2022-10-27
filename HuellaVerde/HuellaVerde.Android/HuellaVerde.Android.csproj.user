@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <SelectedDevice>Motorola moto g%287%29 supra</SelectedDevice>
+    <SelectedDevice>LGE LM-K420</SelectedDevice>
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
-    <ActiveDebugProfile>Motorola moto g%287%29 supra %28Android 9.0 - API 28%29</ActiveDebugProfile>
+    <ActiveDebugProfile>LGE LM-K420 %28Android 11.0 - API 30%29</ActiveDebugProfile>
     <DefaultDevice>pixel_5_-_api_31</DefaultDevice>
     <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
   </PropertyGroup>
