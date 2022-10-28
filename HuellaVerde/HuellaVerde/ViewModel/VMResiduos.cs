@@ -139,6 +139,24 @@ namespace HuellaVerde.ViewModel
                 case "No utilizo":
                     break;
             }
+
+            switch (SeleccionR3)
+            {
+                case "Realizo muy frecuentemente":
+                    ContadorGlobal = _ContadorGlobal - 1;
+                    break;
+
+                case "Realizo a menudo":
+                    ContadorGlobal = _ContadorGlobal + 0;
+                    break;
+                case "Realizo muy poco":
+                    ContadorGlobal = _ContadorGlobal + 1;
+                    break;
+                case "No reciclo":
+                    ContadorGlobal = _ContadorGlobal + 2;
+                    break;
+            }
+
         }
         #endregion
         #region COMANDOS

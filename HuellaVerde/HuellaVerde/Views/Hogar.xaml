@@ -38,12 +38,18 @@
                         Title="-Seleccionar-"
                         TitleColor="Gray"
                         TextColor="Gray"
-                        HorizontalOptions="CenterAndExpand">
-                    <Picker.Items>
-                        <x:String>Tengo 1 </x:String>
-                        <x:String>Tengo más de 1</x:String>
-                        <x:String>No tengo </x:String>
-                    </Picker.Items>
+                        HorizontalOptions="CenterAndExpand"
+                        SelectedItem="{Binding SeleccionR1}">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+
+                            <x:String>Tengo 1</x:String>
+                            <x:String>Tengo más de 1</x:String>
+                            <x:String>No tengo</x:String>
+
+                        </x:Array>
+                        
+                    </Picker.ItemsSource>
 
                 </Picker>
                 
@@ -60,12 +66,18 @@
                         Title="-Seleccionar-"
                         TitleColor="Gray"
                         TextColor="Gray"
-                        HorizontalOptions="CenterAndExpand">
-                    <Picker.Items>
-                        <x:String>Realizo 1</x:String>
-                        <x:String>Realizo más de 1</x:String>
-                        <x:String>Desconozco el significado</x:String>
-                    </Picker.Items>
+                        HorizontalOptions="CenterAndExpand"
+                        SelectedItem="{Binding SeleccionR2}">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+
+                            <x:String>Realizo 1</x:String>
+                            <x:String>Realizo más de 1</x:String>
+                            <x:String>Desconozco el significado</x:String>
+
+                        </x:Array>
+                        
+                    </Picker.ItemsSource>
 
                 </Picker>
 
@@ -82,12 +94,18 @@
                         Title="-Seleccionar-"
                         TitleColor="Gray"
                         TextColor="Gray"
-                        HorizontalOptions="CenterAndExpand">
-                    <Picker.Items>
-                        <x:String>Tengo 1</x:String>
-                        <x:String>Tengo más de 1</x:String>
-                        <x:String>No tengo</x:String>
-                    </Picker.Items>
+                        HorizontalOptions="CenterAndExpand"
+                        SelectedItem="{Binding SeleccionR3}">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+
+                            <x:String>Tengo 1</x:String>
+                            <x:String>Tengo más de 1</x:String>
+                            <x:String>No tengo</x:String>
+
+                        </x:Array>
+                        
+                    </Picker.ItemsSource>
 
                 </Picker>
 
@@ -104,12 +122,18 @@
                         Title="-Seleccionar-"
                         TitleColor="Gray"
                         TextColor="Gray"
-                        HorizontalOptions="CenterAndExpand">
-                    <Picker.Items>
-                        <x:String>Tengo 1</x:String>
-                        <x:String>Tengo más de 1</x:String>
-                        <x:String>No tengo</x:String>
-                    </Picker.Items>
+                        HorizontalOptions="CenterAndExpand"
+                        SelectedItem="{Binding SeleccionR4}">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+
+                            <x:String>1 Habitación</x:String>
+                            <x:String>2 - 3 habitaciones</x:String>
+                            <x:String>4 habitaciones o más</x:String>
+
+                        </x:Array>
+                        
+                    </Picker.ItemsSource>
 
                 </Picker>
 

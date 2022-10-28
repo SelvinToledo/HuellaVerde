@@ -43,14 +43,20 @@
                         Title="-Seleccionar-"
                         TitleColor="Gray"
                         TextColor="Gray"
-                        HorizontalOptions="CenterAndExpand">
-                    <Picker.Items>
-                        <x:String>Pollo</x:String>
-                        <x:String>Res</x:String>
-                        <x:String>Pescado</x:String>
-                        <x:String>Cerdo</x:String>
-                        <x:String>No consumo carne</x:String>
-                    </Picker.Items>
+                        HorizontalOptions="CenterAndExpand"
+                        SelectedItem="{Binding SeleccionR1}">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+
+                            <x:String>Pollo</x:String>
+                            <x:String>Res</x:String>
+                            <x:String>Pescado</x:String>
+                            <x:String>Cerdo</x:String>
+                            <x:String>No consumo carne</x:String>
+
+                        </x:Array>
+                        
+                    </Picker.ItemsSource>
 
                 </Picker>
 
@@ -68,12 +74,18 @@
                         Title="-Seleccionar-"
                         TitleColor="Gray"
                         TextColor="Gray"
-                        HorizontalOptions="CenterAndExpand">
-                    <Picker.Items>
-                        <x:String>Tengo un huerto</x:String>
-                        <x:String>Voy al supermercado</x:String>
-                        <x:String>Consumo en mercados locales</x:String>
-                    </Picker.Items>
+                        HorizontalOptions="CenterAndExpand"
+                        SelectedItem="{Binding SeleccionR2}">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+
+                            <x:String>Tengo un huerto</x:String>
+                            <x:String>Voy al supermercado</x:String>
+                            <x:String>Consumo en mercados locales</x:String>
+
+                        </x:Array>
+                       
+                    </Picker.ItemsSource>
 
                 </Picker>
             </Grid>

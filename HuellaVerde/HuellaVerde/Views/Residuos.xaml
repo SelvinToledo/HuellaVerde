@@ -104,8 +104,8 @@
                         <x:Array Type="{x:Type x:String}">
                             <x:String>Realizo muy frecuentemente</x:String>
                             <x:String>Realizo a menudo</x:String>
-                            <x:String>Poco</x:String>
-                            <x:String>Nunca</x:String>
+                            <x:String>Realizo muy poco</x:String>
+                            <x:String>No reciclo</x:String>
                         </x:Array>
                     </Picker.ItemsSource>
 
