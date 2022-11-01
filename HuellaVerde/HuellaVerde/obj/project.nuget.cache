@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "PXbBClN90V5A7BkKiFEnRwI95cmG69gkvlPFzGou7B8YnD5Nbmkl8xFn2HMQoy2p/vn5xTjVi29IIFU//6/ZUw==",
+  "dgSpecHash": "gzN5mq8opMpIHw+XtjVTaI+XRn47VSRArGnfTKxGvJhHFErQ70vXshlTrIIVgCaw7DNLRUbU9VGKn6JnFPqJ8w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Selvin Toledo\\Desktop\\MATERIAS\\HuellaVerde\\HuellaVerde\\HuellaVerde\\HuellaVerde.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Selvin Toledo\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\4.1.0\\com.airbnb.xamarin.forms.lottie.4.1.0.nupkg.sha512",
     "C:\\Users\\Selvin Toledo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Selvin Toledo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\Selvin Toledo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",

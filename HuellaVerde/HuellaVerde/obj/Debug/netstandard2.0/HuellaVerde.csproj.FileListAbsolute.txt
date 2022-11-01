@@ -40,3 +40,4 @@ C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde\obj\
 C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Views\Hogar.xaml.g.cs
 C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Views\Residuos.xaml.g.cs
 C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Views\Transporte.xaml.g.cs
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Views\Buenosresultados.xaml.g.cs

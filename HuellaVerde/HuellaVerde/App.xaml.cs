@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using HuellaVerde.Views;
@@ -11,7 +12,7 @@ namespace HuellaVerde
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new Pantalla1());
+            MainPage = new NavigationPage(new Buenosresultados());
         }
 
         protected override void OnStart()

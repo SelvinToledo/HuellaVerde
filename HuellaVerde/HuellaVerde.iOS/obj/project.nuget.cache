@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "RWTvKsyRlJzycNSlGgd6ZEckSfiq674XqfHAXQX66200PDDnnEI3t9st/zASFEm49ELKNrXrFl61exuVD8OWlA==",
+  "dgSpecHash": "NC4FkDaY6QkjisF6K2TOTsjnzNFJtdC0m4N8/JpgZMIkR5xJSr0hKUs7Syu4ur6qNFlUC/ey/Eh0tqE4rhOJnQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Selvin Toledo\\Desktop\\MATERIAS\\HuellaVerde\\HuellaVerde\\HuellaVerde.iOS\\HuellaVerde.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Selvin Toledo\\.nuget\\packages\\com.airbnb.ios.lottie\\2.5.13\\com.airbnb.ios.lottie.2.5.13.nupkg.sha512",
+    "C:\\Users\\Selvin Toledo\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\4.1.0\\com.airbnb.xamarin.forms.lottie.4.1.0.nupkg.sha512",
     "C:\\Users\\Selvin Toledo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Selvin Toledo\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\Selvin Toledo\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"

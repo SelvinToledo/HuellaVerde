@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HuellaVerde.Views.Buenosresultados"
+             xmlns:lottie="clr-namespace:Lottie.Forms;assembly=Lottie.Forms">
+
+    <StackLayout BackgroundColor="#A8DDB5">
+
+        <StackLayout>
+            <Image Source="resultados.png" WidthRequest="50" Margin="0,60,0,0"/>
+            <Label Text="Resultados" 
+                   HorizontalTextAlignment="Center"
+                   FontAttributes="Bold"
+                   FontSize="35"
+                   TextColor="White"
+                   Margin="0,10,0,20"/>
+            <Label Text="Su emisión de carbono es:"
+                   TextColor="#017351"
+                   HorizontalTextAlignment="Center"
+                   FontSize="22"
+                   FontAttributes="Bold"
+                   Margin="0,0,0,10"/>
+            <Label Text="BAJO"
+                   FontSize="25"
+                   HorizontalTextAlignment="Center"
+                   TextColor="#A50026"
+                   FontAttributes="Bold"/>
+            <Label Text="Muchas gracias por hacer
+                   cambios para ayudar el planeta"
+                   TextColor="#017351"
+                   HorizontalTextAlignment="Center"
+                   FontSize="22"
+                   FontAttributes="Bold"
+                   Margin="0,10,0,20"/>
+            <lottie:AnimationView Animation="animacion.json"
+                                  HeightRequest="300"
+                                  AutoPlay="True">
+                 
+                
+            </lottie:AnimationView>
+
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>
