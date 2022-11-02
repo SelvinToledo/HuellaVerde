@@ -118,7 +118,7 @@
         
         <Button Grid.Row="3"
                 Style="{StaticResource btnContinuar}"
-                Command="{Binding calculo}"/>
+                Command="{Binding btnContinuarcommand}"/>
         
     </Grid>
 </ContentPage>

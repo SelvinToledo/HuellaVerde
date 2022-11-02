@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HuellaVerde.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,9 +13,10 @@ namespace HuellaVerde.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Resultados : ContentPage
     {
-        public Resultados()
+        public Resultados(int C)
         {
             InitializeComponent();
+            BindingContext = new VMResultados(Navigation, C);
         }
     }
 }

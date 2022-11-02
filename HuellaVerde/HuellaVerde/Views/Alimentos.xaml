@@ -23,7 +23,8 @@
                    TextColor="#797A97"
                    FontAttributes="Bold"
                    FontSize="32"
-                   VerticalOptions="Center"/>
+                   VerticalOptions="Center"
+                   x:Name="lblArriba"/>
 
         </StackLayout>
 

@@ -12,10 +12,10 @@ namespace HuellaVerde.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Reciduos : ContentPage
     {
-        public Reciduos()
+        public Reciduos(int C)
         {
             InitializeComponent();
-            BindingContext = new VMResiduos(Navigation);
+            BindingContext = new VMResiduos(Navigation,C);
         }
     }
 }

@@ -12,11 +12,14 @@ namespace HuellaVerde.ViewModel
     {
         #region VARIABLES
         string _Texto;
+        int _Contadorglobal = 0;
         #endregion
         #region CONSTRUCTOR
-        public VMResultados(INavigation navigation)
+        public VMResultados(INavigation navigation,int Conta)
         {
             Navigation = navigation;
+            _Contadorglobal = Conta;
+            Console.WriteLine(_Contadorglobal);
         }
         #endregion
         #region OBJETOS

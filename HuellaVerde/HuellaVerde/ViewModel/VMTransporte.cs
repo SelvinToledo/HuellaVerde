@@ -88,7 +88,8 @@ namespace HuellaVerde.ViewModel
         public async Task btnContinuar()
         {
             Asigna();
-            await Navigation.PushAsync(new Alimentos());
+            await Navigation.PushAsync(new Alimentos(_ContadorGlobal));
+            
         }
         public async Task btnRegresar()
         {
@@ -138,14 +139,14 @@ namespace HuellaVerde.ViewModel
             switch (SeleccionR3)
             {
                 case "Mucho":
-                    ContadorGlobal = _ContadorGlobal + 1;
+                    ContadorGlobal = _ContadorGlobal + 3;
                     break;
 
                 case "A menudo":
                     ContadorGlobal = _ContadorGlobal + 2;
                     break;
                 case "Poco":
-                    ContadorGlobal = _ContadorGlobal + 3;
+                    ContadorGlobal = _ContadorGlobal + 1;
                     break;
                 case "Nunca":
                     break;

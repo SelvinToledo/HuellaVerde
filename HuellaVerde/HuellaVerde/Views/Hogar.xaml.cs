@@ -13,10 +13,10 @@ namespace HuellaVerde.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Hogar : ContentPage
     {
-        public Hogar()
+        public Hogar(int C)
         {
             InitializeComponent();
-            BindingContext = new VMHogar(Navigation);
+            BindingContext = new VMHogar(Navigation,C);
         }
     }
 }

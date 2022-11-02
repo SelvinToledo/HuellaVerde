@@ -19,9 +19,11 @@ namespace HuellaVerde.ViewModel
         int _ContadorGlobal = 0;
         #endregion
         #region CONSTRUCTOR
-        public VMResiduos(INavigation navigation)
+        public VMResiduos(INavigation navigation, int Conta)
         {
             Navigation = navigation;
+            _ContadorGlobal = Conta;
+            Console.WriteLine(_ContadorGlobal);
         }
         #endregion
         #region OBJETOS
@@ -94,7 +96,8 @@ namespace HuellaVerde.ViewModel
         #region PROCESOS
         public async Task btnContinuar()
         {
-            await Navigation.PushAsync(new Resultados());
+            Asignacion();
+            await Navigation.PushAsync(new Resultados(_ContadorGlobal));
         }
         public async Task btnRegresar()
         {

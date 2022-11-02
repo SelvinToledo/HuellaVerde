@@ -11,7 +11,7 @@ namespace HuellaVerde.ViewModel
 {
     public class VMAlimentos:BaseViewModel
     {
-        VMTransporte T;//anda mal esto tambien
+        
         
 
         #region VARIABLES
@@ -21,9 +21,11 @@ namespace HuellaVerde.ViewModel
         string _txtR2;
         #endregion
         #region CONSTRUCTOR
-        public VMAlimentos(INavigation navigation)
+        public VMAlimentos(INavigation navigation, int Conta)
         {
             Navigation = navigation;
+            _ContadorGlobal = Conta;
+            Console.WriteLine(_ContadorGlobal);
         }
         #endregion
         #region OBJETOS
@@ -73,8 +75,8 @@ namespace HuellaVerde.ViewModel
         #region PROCESOS
         public async Task btnContinuar()
         {
-            AsignaAlimentos(T);//Anda mal esto
-            await Navigation.PushAsync(new Hogar());
+            AsignaAlimentos();
+            await Navigation.PushAsync(new Hogar(_ContadorGlobal));
         }
         public async Task btnRegresar()
         {
@@ -84,10 +86,10 @@ namespace HuellaVerde.ViewModel
         {
 
         }
-        public void AsignaAlimentos(VMTransporte P)
+        public void AsignaAlimentos()
         {
-            ContadorGlobal = P.ContadorGlobal;//anda mal
-            Console.WriteLine(ContadorGlobal);
+            //ContadorGlobal = P.ContadorGlobal;//anda mal
+            
 
             switch (SeleccionR1)
             {

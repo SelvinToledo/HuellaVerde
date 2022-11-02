@@ -12,10 +12,13 @@ namespace HuellaVerde.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Alimentos : ContentPage
     {
-        public Alimentos()
+        public Alimentos(int C)
         {
             InitializeComponent();
-            BindingContext = new VMAlimentos(Navigation);
+            BindingContext = new VMAlimentos(Navigation,C);
+            
         }
+        
+  
     }
 }
