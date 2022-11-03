@@ -23,7 +23,7 @@
             <Label Text="BAJO"
                    FontSize="25"
                    HorizontalTextAlignment="Center"
-                   TextColor="#A50026"
+                   TextColor="DarkOliveGreen"
                    FontAttributes="Bold"/>
             <Label Text="Muchas gracias por hacer
                    cambios para ayudar el planeta"
@@ -34,7 +34,8 @@
                    Margin="0,10,0,20"/>
             <lottie:AnimationView Animation="animacion.json"
                                   HeightRequest="300"
-                                  AutoPlay="True">
+                                  AutoPlay="True"
+                                  >
                  
                 
             </lottie:AnimationView>

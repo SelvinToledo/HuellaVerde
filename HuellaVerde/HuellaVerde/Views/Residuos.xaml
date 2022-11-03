@@ -9,16 +9,12 @@
                Grid.Row="0"
                HorizontalOptions="Start"
                Margin="20,20,0,0">
-            
+
             <Image.GestureRecognizers>
                 <TapGestureRecognizer Command="{Binding btnRegresarcommand}"/>
             </Image.GestureRecognizers>
-            
-        </Image>
 
-        <Label Text="{Binding ContadorGlobal}"
-                   TextColor="Red"
-                   VerticalOptions="End"/>
+        </Image>
 
         <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
             

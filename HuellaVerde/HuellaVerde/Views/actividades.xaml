@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HuellaVerde.Views.actividades"
+             NavigationPage.HasNavigationBar="False"
+             xmlns:lottie="clr-namespace:Lottie.Forms;assembly=Lottie.Forms">
+    
+    <Grid BackgroundColor="White" RowDefinitions="50,*">
+        <StackLayout Grid.Row="0" VerticalOptions="StartAndExpand">
+            <Image Source="flecha.png" HeightRequest="25"
+                   Margin="10"
+                   HorizontalOptions="Start"/>
+        </StackLayout>
+        <StackLayout Grid.Row="1" IsVisible="true" HorizontalOptions="CenterAndExpand">
+            <Label Text="Alimentos" TextColor="#017351" FontSize="30" HorizontalOptions="Center"/>
+            
+            <StackLayout HorizontalOptions="CenterAndExpand" Margin="30">
+                
+                    <Label Text="1. Elegir una dieta más baja en la cadena alimentaria (los lácteos y carnes son de los productos que más emisiones genera)."
+                       TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+                
+                <Label Text="2. Reducir empaquetados individuales y de un solo uso." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+                <Label Text="3. Comprar productos locales reduce el impacto del transporte." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+                <Label Text="4. Reducir el desperdicio de comida a lo menor posible." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+                <Label Text="5. Hacer composta integra el carbono de los desechos en abono para el jardín o áreas verdes." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+                <Label Text="6. Tener un huerto en casa aprovecha el abono de composta y produce el alimento en casa." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+
+                <lottie:AnimationView Animation="alimentos.json" AutoPlay="True" HeightRequest="210" RepeatMode="Infinite" Margin="0,50,0,0"/>
+            </StackLayout>
+        </StackLayout>
+    </Grid>
+</ContentPage>

@@ -25,7 +25,6 @@ namespace HuellaVerde.ViewModel
         {
             Navigation = navigation;
             _ContadorGlobal = Conta;
-            Console.WriteLine(_ContadorGlobal);
         }
         #endregion
         #region OBJETOS
@@ -88,9 +87,6 @@ namespace HuellaVerde.ViewModel
         }
         public void AsignaAlimentos()
         {
-            //ContadorGlobal = P.ContadorGlobal;//anda mal
-            
-
             switch (SeleccionR1)
             {
                 case "Pollo":

@@ -97,7 +97,14 @@ namespace HuellaVerde.ViewModel
         public async Task btnContinuar()
         {
             Asignacion();
-            await Navigation.PushAsync(new Resultados(_ContadorGlobal));
+            if(_ContadorGlobal<=10)
+            {
+                await Navigation.PushAsync(new Buenosresultados());
+            }
+            else
+            {
+                await Navigation.PushAsync(new Resultados(_ContadorGlobal));
+            }
         }
         public async Task btnRegresar()
         {
@@ -105,11 +112,6 @@ namespace HuellaVerde.ViewModel
         }
         public void Asignacion()
         {
-            /*if (SeleccionR1 == "Utilizo mucho")
-            {
-                ContadorGlobal = _ContadorGlobal + 1;
-            }
-            else { }*/
 
             switch (SeleccionR1)
             {
