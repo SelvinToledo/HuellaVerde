@@ -23,7 +23,7 @@
             <Label Text="BAJO"
                    FontSize="25"
                    HorizontalTextAlignment="Center"
-                   TextColor="#A50026"
+                   TextColor="LightGreen"
                    FontAttributes="Bold"/>
             <Label Text="Muchas gracias por hacer
                    cambios para ayudar el planeta"

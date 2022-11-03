@@ -3531,24 +3531,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Selvin Toledo\\.nuget\\packages\\": {},
+    "C:\\Users\\ferna\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Selvin Toledo\\Desktop\\MATERIAS\\HuellaVerde\\HuellaVerde\\HuellaVerde.Android\\HuellaVerde.Android.csproj",
+      "projectUniqueName": "C:\\HuellaVerde\\HullaVerdeApp\\HuellaVerde\\HuellaVerde\\HuellaVerde.Android\\HuellaVerde.Android.csproj",
       "projectName": "HuellaVerde.Android",
-      "projectPath": "C:\\Users\\Selvin Toledo\\Desktop\\MATERIAS\\HuellaVerde\\HuellaVerde\\HuellaVerde.Android\\HuellaVerde.Android.csproj",
-      "packagesPath": "C:\\Users\\Selvin Toledo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Selvin Toledo\\Desktop\\MATERIAS\\HuellaVerde\\HuellaVerde\\HuellaVerde.Android\\obj\\",
+      "projectPath": "C:\\HuellaVerde\\HullaVerdeApp\\HuellaVerde\\HuellaVerde\\HuellaVerde.Android\\HuellaVerde.Android.csproj",
+      "packagesPath": "C:\\Users\\ferna\\.nuget\\packages\\",
+      "outputPath": "C:\\HuellaVerde\\HullaVerdeApp\\HuellaVerde\\HuellaVerde\\HuellaVerde.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Selvin Toledo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ferna\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3562,8 +3562,8 @@
       "frameworks": {
         "monoandroid12.0": {
           "projectReferences": {
-            "C:\\Users\\Selvin Toledo\\Desktop\\MATERIAS\\HuellaVerde\\HuellaVerde\\HuellaVerde\\HuellaVerde.csproj": {
-              "projectPath": "C:\\Users\\Selvin Toledo\\Desktop\\MATERIAS\\HuellaVerde\\HuellaVerde\\HuellaVerde\\HuellaVerde.csproj"
+            "C:\\HuellaVerde\\HullaVerdeApp\\HuellaVerde\\HuellaVerde\\HuellaVerde\\HuellaVerde.csproj": {
+              "projectPath": "C:\\HuellaVerde\\HullaVerdeApp\\HuellaVerde\\HuellaVerde\\HuellaVerde\\HuellaVerde.csproj"
             }
           }
         }

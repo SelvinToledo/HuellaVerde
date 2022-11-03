@@ -41,3 +41,25 @@ C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde\obj\
 C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Views\Residuos.xaml.g.cs
 C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Views\Transporte.xaml.g.cs
 C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Views\Buenosresultados.xaml.g.cs
+C:\HuellaVerde\HullaVerdeApp\HuellaVerde\HuellaVerde\HuellaVerde\bin\Debug\netstandard2.0\HuellaVerde.deps.json
+C:\HuellaVerde\HullaVerdeApp\HuellaVerde\HuellaVerde\HuellaVerde\bin\Debug\netstandard2.0\HuellaVerde.dll
+C:\HuellaVerde\HullaVerdeApp\HuellaVerde\HuellaVerde\HuellaVerde\bin\Debug\netstandard2.0\HuellaVerde.pdb
+C:\HuellaVerde\HullaVerdeApp\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\HuellaVerde.csproj.AssemblyReference.cache
+C:\HuellaVerde\HullaVerdeApp\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\HuellaVerde.GeneratedMSBuildEditorConfig.editorconfig
+C:\HuellaVerde\HullaVerdeApp\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\HuellaVerde\HullaVerdeApp\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Views\Alimentos.xaml.g.cs
+C:\HuellaVerde\HullaVerdeApp\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Views\Buenosresultados.xaml.g.cs
+C:\HuellaVerde\HullaVerdeApp\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Views\Hogar.xaml.g.cs
+C:\HuellaVerde\HullaVerdeApp\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Views\Pantalla1.xaml.g.cs
+C:\HuellaVerde\HullaVerdeApp\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Views\Pantalla2.xaml.g.cs
+C:\HuellaVerde\HullaVerdeApp\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Views\Residuos.xaml.g.cs
+C:\HuellaVerde\HullaVerdeApp\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Views\Resultados.xaml.g.cs
+C:\HuellaVerde\HullaVerdeApp\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Views\Transporte.xaml.g.cs
+C:\HuellaVerde\HullaVerdeApp\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\HuellaVerde.AssemblyInfoInputs.cache
+C:\HuellaVerde\HullaVerdeApp\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\HuellaVerde.AssemblyInfo.cs
+C:\HuellaVerde\HullaVerdeApp\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\HuellaVerde.csproj.CoreCompileInputs.cache
+C:\HuellaVerde\HullaVerdeApp\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\XamlC.stamp
+C:\HuellaVerde\HullaVerdeApp\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\HuellaVerde.dll
+C:\HuellaVerde\HullaVerdeApp\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\refint\HuellaVerde.dll
+C:\HuellaVerde\HullaVerdeApp\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\HuellaVerde.pdb
+C:\HuellaVerde\HullaVerdeApp\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\ref\HuellaVerde.dll
