@@ -5,10 +5,15 @@
              NavigationPage.HasNavigationBar="False">
 
     <Grid RowDefinitions="45,100,*,100" BackgroundColor="White">
+        
         <Image Source="flecha.png"
                Grid.Row="0"
                HorizontalOptions="Start"
-               Margin="20,20,0,0"/>
+               Margin="20,20,0,0">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding btnRegresarcommand}"/>
+            </Image.GestureRecognizers>
+        </Image>
 
         <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
 
@@ -24,7 +29,7 @@
 
         <ScrollView Grid.Row="2">
 
-            <Grid ColumnDefinitions="*,*" RowDefinitions="*,*,*,*">
+            <Grid ColumnDefinitions="180,400" RowDefinitions="*,*,*,*" VerticalOptions="Center" RowSpacing="50">
                 <Label
                     Grid.Column="0"
                     Grid.Row="0"
@@ -38,7 +43,8 @@
                         Title="-Seleccionar-"
                         TitleColor="Gray"
                         TextColor="Gray"
-                        HorizontalOptions="CenterAndExpand"
+                        WidthRequest="380"
+                        HorizontalOptions="StartAndExpand"
                         SelectedItem="{Binding SeleccionR1}">
                     <Picker.ItemsSource>
                         <x:Array Type="{x:Type x:String}">
@@ -66,7 +72,10 @@
                         Title="-Seleccionar-"
                         TitleColor="Gray"
                         TextColor="Gray"
-                        HorizontalOptions="CenterAndExpand"
+                        FontSize="18"
+                        WidthRequest="400"
+                        Margin="-20,0,0,0"
+                        HorizontalOptions="StartAndExpand"
                         SelectedItem="{Binding SeleccionR2}">
                     <Picker.ItemsSource>
                         <x:Array Type="{x:Type x:String}">
@@ -94,7 +103,8 @@
                         Title="-Seleccionar-"
                         TitleColor="Gray"
                         TextColor="Gray"
-                        HorizontalOptions="CenterAndExpand"
+                        WidthRequest="400"
+                        HorizontalOptions="StartAndExpand"
                         SelectedItem="{Binding SeleccionR3}">
                     <Picker.ItemsSource>
                         <x:Array Type="{x:Type x:String}">
@@ -122,7 +132,8 @@
                         Title="-Seleccionar-"
                         TitleColor="Gray"
                         TextColor="Gray"
-                        HorizontalOptions="CenterAndExpand"
+                        WidthRequest="400"
+                        HorizontalOptions="StartAndExpand"
                         SelectedItem="{Binding SeleccionR4}">
                     <Picker.ItemsSource>
                         <x:Array Type="{x:Type x:String}">

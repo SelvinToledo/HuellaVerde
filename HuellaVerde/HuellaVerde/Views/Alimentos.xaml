@@ -30,7 +30,7 @@
 
         <ScrollView Grid.Row="2">
 
-            <Grid ColumnDefinitions="*,*" RowDefinitions="*,*" Margin="0,100,0,100">
+            <Grid ColumnDefinitions="150,200" RowDefinitions="*,*" Margin="0,100,0,100">
                 <Label
                     Grid.Column="0"
                     Grid.Row="0"
@@ -44,7 +44,8 @@
                         Title="-Seleccionar-"
                         TitleColor="Gray"
                         TextColor="Gray"
-                        HorizontalOptions="CenterAndExpand"
+                        WidthRequest="250" 
+                        HorizontalOptions="StartAndExpand"
                         SelectedItem="{Binding SeleccionR1}">
                     <Picker.ItemsSource>
                         <x:Array Type="{x:Type x:String}">
@@ -74,15 +75,18 @@
                 <Picker Grid.Column="1" Grid.Row="1"
                         Title="-Seleccionar-"
                         TitleColor="Gray"
+                        VerticalTextAlignment="Center"
                         TextColor="Gray"
-                        HorizontalOptions="CenterAndExpand"
+                        FontSize="18"
+                        WidthRequest="350"
+                        HorizontalOptions="StartAndExpand"
                         SelectedItem="{Binding SeleccionR2}">
                     <Picker.ItemsSource>
                         <x:Array Type="{x:Type x:String}">
 
                             <x:String>Tengo un huerto</x:String>
                             <x:String>Voy al supermercado</x:String>
-                            <x:String>Consumo en mercados locales</x:String>
+                            <x:String>Mercados locales</x:String>
 
                         </x:Array>
                        

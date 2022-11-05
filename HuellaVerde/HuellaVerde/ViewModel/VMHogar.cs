@@ -106,6 +106,11 @@ namespace HuellaVerde.ViewModel
             Asignacion();
             await Navigation.PushAsync(new Reciduos(_ContadorGlobal));
         }
+        public async Task Regresar()
+        {
+            _ContadorGlobal = 0;
+            await Navigation.PopAsync();
+        }
         public void ProcesoSimple()
         {
 
@@ -174,6 +179,8 @@ namespace HuellaVerde.ViewModel
         #region COMANDOS
         public ICommand btnContinuarcommand => new Command(async () => await Continuar());
         public ICommand ProcesoSimpcommand => new Command(ProcesoSimple);
+        public ICommand btnRegresarcommand => new Command(async () => await Regresar());
+
         #endregion
     }
 }

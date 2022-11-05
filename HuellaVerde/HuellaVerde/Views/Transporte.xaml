@@ -29,7 +29,8 @@
 
         <ScrollView Grid.Row="2">
 
-            <Grid ColumnDefinitions="*,250" RowDefinitions="*,*,*" Margin="0,100,0,100">
+            <Grid ColumnDefinitions="150,500" RowDefinitions="*,*,*" Margin="0,100,0,100" HorizontalOptions="StartAndExpand">
+                
                 <Label
                     Grid.Column="0"
                     Grid.Row="0"
@@ -37,19 +38,20 @@
                     TextColor="Black"
                     FontSize="22"
                     HorizontalTextAlignment="Center"
-                    VerticalTextAlignment="Center"
-                    />
+                    VerticalTextAlignment="Center"/>
+                
                 <Picker Grid.Column="1" Grid.Row="0"
                         Title="-Seleccionar-"
                         TitleColor="Gray"
                         TextColor="Gray"
-                        HorizontalOptions="CenterAndExpand"
+                        WidthRequest="250"
+                        HorizontalOptions="StartAndExpand"
                         SelectedItem="{Binding SeleccionR1}">
                     <Picker.ItemsSource>
                         <x:Array Type="{x:Type x:String}">
 
-                            <x:String>Tengo 1 vehiculo motorizado</x:String>
-                            <x:String>1+ vehiculos motorizados</x:String>
+                            <x:String>Tengo 1 vehiculo</x:String>
+                            <x:String>1+ vehiculos</x:String>
                             <x:String>Camino</x:String>
                             <x:String>Utilizo bicicleta</x:String>
                             <x:String>Utilizo transporte público</x:String>
@@ -73,7 +75,8 @@
                         Title="-Seleccionar-"
                         TitleColor="Gray"
                         TextColor="Gray"
-                        HorizontalOptions="CenterAndExpand"
+                        WidthRequest="250"
+                        HorizontalOptions="StartAndExpand"
                         SelectedItem="{Binding SeleccionR2}">
                     <Picker.ItemsSource>
                         <x:Array Type="{x:Type x:String}">
@@ -102,7 +105,7 @@
                         Title="-Seleccionar-"
                         TitleColor="Gray"
                         TextColor="Gray"
-                        HorizontalOptions="CenterAndExpand"
+                        HorizontalOptions="StartAndExpand"
                         SelectedItem="{Binding SeleccionR3}">
                     <Picker.ItemsSource>
                         <x:Array Type="{x:Type x:String}">

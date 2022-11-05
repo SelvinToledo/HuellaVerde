@@ -30,7 +30,7 @@
 
         <ScrollView Grid.Row="2">
 
-            <Grid RowDefinitions="*,*,*" ColumnDefinitions="*,*">
+            <Grid RowDefinitions="*,*,*" ColumnDefinitions="160,600" VerticalOptions="Center" RowSpacing="60">
                 <Label
                     Grid.Column="0"
                     Grid.Row="0"
@@ -44,7 +44,8 @@
                         Title="-Seleccionar-"
                         TitleColor="Gray"
                         TextColor="Gray"
-                        HorizontalOptions="CenterAndExpand"
+                        HorizontalOptions="StartAndExpand"
+                        WidthRequest="280"
                         SelectedItem="{Binding SeleccionR1}">
                     <Picker.ItemsSource>
                         <x:Array Type="{x:Type x:String}">
@@ -69,13 +70,15 @@
                         Title="-Seleccionar-"
                         TitleColor="Gray"
                         TextColor="Gray"
-                        HorizontalOptions="CenterAndExpand"
+                        FontSize="18"
+                        WidthRequest="400"
+                        HorizontalOptions="StartAndExpand"
                         SelectedItem="{Binding SeleccionR2}">
                     <Picker.ItemsSource>
                         <x:Array Type="{x:Type x:String}">
                             <x:String>1 bolsa grande de basura</x:String>
                             <x:String>1 bote grande de basura</x:String>
-                            <x:String>Mas de un bote grande de basura</x:String>
+                            <x:String>2+ bote grande de basura</x:String>
                         </x:Array>
                     </Picker.ItemsSource>
 
@@ -94,7 +97,10 @@
                         Title="-Seleccionar-"
                         TitleColor="Gray"
                         TextColor="Gray"
-                        HorizontalOptions="CenterAndExpand"
+                        FontSize="18"
+                        Margin="-20,0,0,0"
+                        WidthRequest="480"
+                        HorizontalOptions="StartAndExpand"
                         SelectedItem="{Binding SeleccionR3}">
                     <Picker.ItemsSource>
                         <x:Array Type="{x:Type x:String}">

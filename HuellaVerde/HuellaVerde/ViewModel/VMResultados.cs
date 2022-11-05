@@ -47,6 +47,11 @@ namespace HuellaVerde.ViewModel
             get { return _resultado; }
             set { SetValue(ref _resultado, value); }
         }
+        public int Contador
+        {
+            get { return _Contadorglobal; }
+            set { SetValue(ref _Contadorglobal, value); }
+        }
         public bool TextoMedia
         {
             get { return _textoMedia; }
@@ -76,12 +81,39 @@ namespace HuellaVerde.ViewModel
 
         public async Task IrAlimentos()
         {
-            await Navigation.PushAsync(new actividades());
+            await Navigation.PushAsync(new actividades(true,false,false,false,false,false));
         }
+        public async Task IrHogar()
+        {
+            await Navigation.PushAsync(new actividades(false,true,false,false,false,false));
+        }
+        public async Task IrTransporte()
+        {
+            await Navigation.PushAsync(new actividades(false,false,true,false,false,false));
+        }
+        public async Task IrRopa()
+        {
+            await Navigation.PushAsync(new actividades(false,false,false,true,false,false));
+        }
+        public async Task IrConstruccion()
+        {
+            await Navigation.PushAsync(new actividades(false,false,false,false,true,false));
+        }
+        public async Task IrJardin()
+        {
+            await Navigation.PushAsync(new actividades(false,false,false,false,false,true));
+        }
+
+
         #endregion
         #region COMANDOS
         public ICommand btnRegresarcommand => new Command(async () => await btnRegresar());
         public ICommand IrAlimentoscommand => new Command(async () => await IrAlimentos());
+        public ICommand IrHogarcommand => new Command(async () => await IrHogar());
+        public ICommand IrRopacommand => new Command(async () => await IrRopa());
+        public ICommand IrConstruccioncommand => new Command(async () => await IrConstruccion());
+        public ICommand IrJardincommand => new Command(async () => await IrJardin());
+        public ICommand IrTransportecommand => new Command(async () => await IrTransporte());
         //public ICommand ProcesoSimpcommand => new Command(ProcesoSimple);
         #endregion
     }

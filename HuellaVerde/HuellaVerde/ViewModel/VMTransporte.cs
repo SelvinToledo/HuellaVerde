@@ -93,8 +93,13 @@ namespace HuellaVerde.ViewModel
         }
         public async Task btnRegresar()
         {
+            await DisplayAlert("Advertencia", "Al retroceder desde este punto se perdera la puntuacion realizada hasta ahora", "Aceptar");
+            _ContadorGlobal = 0;
             await Navigation.PopAsync();
         }
+
+
+
         public void ProcesoSimple()
         {
 

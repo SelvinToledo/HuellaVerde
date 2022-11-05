@@ -12,7 +12,8 @@ namespace HuellaVerde
         {
             InitializeComponent();
             
-            MainPage = new NavigationPage(new Resultados(19));
+            MainPage = new NavigationPage(new Pantalla1());
+            //MainPage = new NavigationPage(new CalculaBasura());
         }
 
         protected override void OnStart()

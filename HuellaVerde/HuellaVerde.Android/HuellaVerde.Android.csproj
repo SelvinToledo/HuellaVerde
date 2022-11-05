@@ -69,6 +69,13 @@
   <ItemGroup>
     <AndroidAsset Include="Assets\animacion.json" />
     <AndroidAsset Include="Assets\alimentos.json" />
+    <AndroidAsset Include="Assets\naturaleza.json" />
+    <AndroidAsset Include="Assets\Ropa.json" />
+    <AndroidAsset Include="Assets\hogar.json" />
+    <AndroidAsset Include="Assets\transporte.json" />
+    <AndroidAsset Include="Assets\construccion.json" />
+    <AndroidAsset Include="Assets\jardin.json" />
+    <AndroidAsset Include="Assets\Basura.json" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />

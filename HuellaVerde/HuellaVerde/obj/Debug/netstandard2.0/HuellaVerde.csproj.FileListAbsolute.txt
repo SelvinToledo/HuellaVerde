@@ -64,3 +64,6 @@ C:\HuellaVerde\HullaVerdeApp\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netst
 C:\HuellaVerde\HullaVerdeApp\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\HuellaVerde.pdb
 C:\HuellaVerde\HullaVerdeApp\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\ref\HuellaVerde.dll
 C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Views\actividades.xaml.g.cs
+C:\HuellaVerde\HullaVerdeApp\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Views\actividades.xaml.g.cs
+C:\HuellaVerde\HullaVerdeApp\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Views\CalculaBasura.xaml.g.cs
+C:\Users\Selvin Toledo\Desktop\MATERIAS\HuellaVerde\HuellaVerde\HuellaVerde\obj\Debug\netstandard2.0\Views\CalculaBasura.xaml.g.cs

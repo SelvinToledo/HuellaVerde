@@ -79,6 +79,7 @@ namespace HuellaVerde.ViewModel
         }
         public async Task btnRegresar()
         {
+            _ContadorGlobal = 0;
             await Navigation.PopAsync();
         }
         public void ProcesoSimple()

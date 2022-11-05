@@ -14,6 +14,16 @@
                    FontSize="35"
                    TextColor="White"
                    Margin="0,10,0,20"/>
+            
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Label Text="Puntos totales: "
+                       TextColor="#017351"
+                       FontSize="22"/>
+                <Label Text="{Binding Contador}"
+                       TextColor="#017351"
+                       FontSize="22"/>
+            </StackLayout>
+            
             <Label Text="Su emisión de carbono es:"
                    TextColor="#017351"
                    HorizontalTextAlignment="Center"
@@ -100,7 +110,7 @@
                 </StackLayout>
 
                 <Frame.GestureRecognizers>
-                    
+                    <TapGestureRecognizer Command="{Binding IrRopacommand}"/>
                 </Frame.GestureRecognizers>
             </Frame>
 
@@ -118,7 +128,7 @@
                 </StackLayout>
 
                 <Frame.GestureRecognizers>
-                    
+                    <TapGestureRecognizer Command="{Binding IrHogarcommand}"/>
                 </Frame.GestureRecognizers>
 
             </Frame>
@@ -138,7 +148,7 @@
                 </StackLayout>
 
                 <Frame.GestureRecognizers>
-                    
+                    <TapGestureRecognizer Command="{Binding IrTransportecommand}"/>
                 </Frame.GestureRecognizers>
             </Frame>
 
@@ -157,7 +167,7 @@
                        TextColor="#017351"/>
                 </StackLayout>
                 <Frame.GestureRecognizers>
-                    
+                    <TapGestureRecognizer Command="{Binding IrConstruccioncommand}"/>
                 </Frame.GestureRecognizers>
 
             </Frame>
@@ -178,7 +188,7 @@
                 </StackLayout>
 
                 <Frame.GestureRecognizers>
-                    
+                    <TapGestureRecognizer Command="{Binding IrJardincommand}"/>
                 </Frame.GestureRecognizers>
             </Frame>
             

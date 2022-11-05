@@ -32,6 +32,10 @@ namespace HuellaVerde.ViewModel
         {
             await Navigation.PushAsync(new Transporte());
         }
+        public async Task CalculadoraBasura()
+        {
+            await Navigation.PushAsync(new CalculaBasura());
+        }
 
         public async Task Info()
         {
@@ -47,6 +51,7 @@ namespace HuellaVerde.ViewModel
         #region COMANDOS
         public ICommand btnComenzarcommand => new Command(async () => await Comenzar());
         public ICommand btnInfocommand => new Command(async () => await Info());
+        public ICommand CalculadoraBasuracommand => new Command(async () => await CalculadoraBasura());
         #endregion
     }
 }
