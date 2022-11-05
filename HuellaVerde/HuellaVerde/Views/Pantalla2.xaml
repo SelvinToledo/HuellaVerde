@@ -9,7 +9,7 @@
 
         <StackLayout BackgroundColor="#017351" 
                      VerticalOptions="StartAndExpand"
-                     HeightRequest="80" 
+                     HeightRequest="60" 
                      Orientation="Horizontal">
 
             <Label Text="Datos Personales" 
@@ -35,7 +35,7 @@
             <StackLayout Grid.Row="0" >
                 <Image Grid.Row="0"  
                    Source="IconoHuellasinfondo"
-                   WidthRequest="350"/>
+                   WidthRequest="550"/>
             </StackLayout>
 
             <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" WidthRequest="350">
@@ -82,19 +82,35 @@
                          HorizontalOptions="Center"
                          WidthRequest="350"
                          Margin="0,-15,0,15"/>
-
-            <Button Grid.Row="5"
+            
+            <StackLayout Grid.Row="5">
+                <Button 
                     HorizontalOptions="CenterAndExpand"
-                    Text="COMENZAR"
+                    Text="calcular huella de carbono"
                     VerticalOptions="CenterAndExpand"
-                    CharacterSpacing="1.5"
+                    CharacterSpacing="0.8"
                     FontAttributes="Bold"
                     CornerRadius="15"
                     BackgroundColor="#A8DDB5"
                     TextColor="#017351"
-                    WidthRequest="200"
-                    Margin="0,0,0,90"
+                    WidthRequest="280"
                     Command="{Binding btnComenzarcommand}"/>
+
+                <Button
+                    HorizontalOptions="CenterAndExpand"
+                    Text="calcular basura generada"
+                    VerticalOptions="CenterAndExpand"
+                    CharacterSpacing="0.8"
+                    FontAttributes="Bold"
+                    CornerRadius="15"
+                    BackgroundColor="#A8DDB5"
+                    TextColor="#017351"
+                    WidthRequest="280"
+                    Margin="0,-100,0,0"
+                    Command="{Binding CalculadoraBasuracommand}"/>
+            </StackLayout>
+            
+            
         </Grid>
     </StackLayout>
     

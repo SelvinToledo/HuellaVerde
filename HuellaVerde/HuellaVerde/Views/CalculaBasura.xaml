@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HuellaVerde.Views.CalculaBasura"
+             NavigationPage.HasNavigationBar="False"
+             xmlns:lottie="clr-namespace:Lottie.Forms;assembly=Lottie.Forms">
+    
+    <!--Peso * Numero de personas que habitan en la vivienda-->
+    
+    <StackLayout BackgroundColor="White">
+        <StackLayout HeightRequest="60">
+            <Image Source="flecha.png"
+                   HeightRequest="30"
+                   HorizontalOptions="Start"
+                   Margin="10,10,0,0"/>
+        </StackLayout>
+
+        <lottie:AnimationView Animation="Basura.json"
+                              RepeatMode="Infinite"
+                              AutoPlay="True"
+                              HeightRequest="200"/>
+        
+        <Label Text="Calculadora de basura 
+               generada"
+               TextColor="#017351"
+               FontSize="30"
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center"
+               FontAttributes="Bold" Margin="0,0,0,30"/>
+
+        <Grid RowDefinitions="100,150" ColumnDefinitions="250,*"
+              Margin="20,20,40,20"
+              HorizontalOptions="CenterAndExpand">
+            
+            <Label Grid.Row="0"
+                   Grid.Column="0"
+                   Text="Peso aproximado de la basura:"
+                   TextColor="Gray"
+                   FontSize="22"
+                   VerticalOptions="Center"
+                   HorizontalTextAlignment="End"/>
+
+            <Frame Grid.Column="1"
+                   Grid.Row="0"
+                   HeightRequest="50"
+                   Padding="0"
+                   VerticalOptions="Center"
+                   Opacity="0.5"
+                   BackgroundColor="#017351">
+                <Entry 
+                   HeightRequest="100"
+                   TextColor="White" Keyboard="Numeric"
+                   FontSize="22"
+                    Text="{Binding Peso}">
+                    <Entry.Triggers>
+                        <Trigger TargetType="Entry" Property="IsFocused" Value="True">
+                            <Setter Property="Text" Value=""/>
+                        </Trigger>
+                    </Entry.Triggers>
+                </Entry>
+            </Frame>
+
+            <Label Grid.Row="1"
+                   Grid.Column="0"
+                   Text="Número de personas que habitan en su hogar:"
+                   TextColor="Gray"
+                   FontSize="22"
+                   VerticalOptions="Center"
+                   HorizontalTextAlignment="End"/>
+
+            <Frame Grid.Column="1"
+                   Grid.Row="1"
+                   HeightRequest="50"
+                   Padding="0"
+                   Opacity="0.5"
+                   VerticalOptions="Center"
+                   BackgroundColor="#017351">
+                <Entry 
+                       HeightRequest="100"
+                       TextColor="White" Keyboard="Numeric"
+                       FontSize="22"
+                       Text="{Binding NPersonas}"
+                       >
+                    <Entry.Triggers>
+                        <Trigger TargetType="Entry" Property="IsFocused" Value="True">
+                            <Setter Property="Text" Value=""/>
+                        </Trigger>
+                    </Entry.Triggers>
+                </Entry>
+            </Frame>
+            
+        </Grid>
+
+        <Button Text="CALCULAR" Style="{StaticResource btnContinuar}"
+                HorizontalOptions="CenterAndExpand"
+                Margin="50"
+                Command="{Binding Calculadoracommand}"
+                WidthRequest="200"/>
+        
+    </StackLayout>
+</ContentPage>

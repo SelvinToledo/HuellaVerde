@@ -14,6 +14,16 @@
                    FontSize="35"
                    TextColor="White"
                    Margin="0,10,0,20"/>
+            
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Label Text="Puntos totales: "
+                       TextColor="#017351"
+                       FontSize="22"/>
+                <Label Text="{Binding Contador}"
+                       TextColor="#017351"
+                       FontSize="22"/>
+            </StackLayout>
+            
             <Label Text="Su emisión de carbono es:"
                    TextColor="#017351"
                    HorizontalTextAlignment="Center"
@@ -82,66 +92,106 @@
                 </StackLayout>
 
                 <Frame.GestureRecognizers>
-                    <TapGestureRecognizer Command="{Binding ProcesoSimpcommand}"/>
+                    <TapGestureRecognizer Command="{Binding IrAlimentoscommand}"/>
                 </Frame.GestureRecognizers>
             </Frame>
 
-            <StackLayout Grid.Column="1">
-                <Image 
+            <Frame Grid.Column="1" Grid.Row="0" Padding="0" BackgroundColor="Transparent">
+
+                <StackLayout>
+                    <Image 
                        Source="ropa"
                        WidthRequest="40"/>
-                <Label 
+                    <Label 
                        Text="Ropa"
                        FontSize="15"
                        HorizontalTextAlignment="Center"
                        TextColor="#017351"/>
-            </StackLayout>
+                </StackLayout>
 
-            <StackLayout Grid.Column="2">
-                <Image 
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding IrRopacommand}"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+
+            <Frame Grid.Column="2" Grid.Row="0" Padding="0" BackgroundColor="Transparent">
+
+                <StackLayout>
+                    <Image 
                        Source="hogarAct"
                        WidthRequest="40"/>
-                <Label 
+                    <Label 
                        Text="Hogar"
                        FontSize="15"
                        HorizontalTextAlignment="Center"
                        TextColor="#017351"/>
-            </StackLayout>
+                </StackLayout>
 
-            <StackLayout Grid.Row="1">
-                <Image 
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding IrHogarcommand}"/>
+                </Frame.GestureRecognizers>
+
+            </Frame>
+
+
+            <Frame Grid.Row="1" Grid.Column="0" Padding="0" BackgroundColor="Transparent">
+
+                <StackLayout>
+                    <Image 
                        Source="transporte"
                        WidthRequest="40"/>
-                <Label 
+                    <Label 
                        Text="Transporte"
                        FontSize="15"
                        HorizontalTextAlignment="Center"
                        TextColor="#017351"/>
-            </StackLayout>
+                </StackLayout>
 
-            <StackLayout Grid.Row="1" Grid.Column="1">
-                <Image Source="construccion"
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding IrTransportecommand}"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+
+
+            <Frame Grid.Row="1" Grid.Column="1" Padding="0" BackgroundColor="Transparent">
+
+                <StackLayout >
+                    <Image Source="construccion"
                        WidthRequest="40"/>
-                
-                <Label Text="Arquitectura y
+
+                    <Label Text="Arquitectura y
                     construcción"
                        FontSize="15"
                        HorizontalTextAlignment="Center"
                        
                        TextColor="#017351"/>
-            </StackLayout>
+                </StackLayout>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding IrConstruccioncommand}"/>
+                </Frame.GestureRecognizers>
 
-            <StackLayout Grid.Row="1" Grid.Column="2">
-                <Image 
+            </Frame>
+
+
+            <Frame Grid.Row="1" Grid.Column="2" Padding="0" BackgroundColor="Transparent">
+
+                <StackLayout>
+                    <Image 
                        Source="areasverdes"
                        WidthRequest="40"/>
-                <Label 
+                    <Label 
                        Text="Jardín"
                        FontSize="15"
                        HorizontalTextAlignment="Center"
                        
                        TextColor="#017351"/>
-            </StackLayout>
+                </StackLayout>
+
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding IrJardincommand}"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+            
 
         </Grid>
         

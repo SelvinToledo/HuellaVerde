@@ -12,7 +12,7 @@ namespace HuellaVerde
         {
             InitializeComponent();
             
-            MainPage = new NavigationPage(new Transporte());
+            MainPage = new NavigationPage(new Pantalla1());
         }
 
         protected override void OnStart()

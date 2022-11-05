@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HuellaVerde.Views.actividades"
+             NavigationPage.HasNavigationBar="False"
+             xmlns:lottie="clr-namespace:Lottie.Forms;assembly=Lottie.Forms">
+    
+    <Grid BackgroundColor="White" RowDefinitions="50,*">
+        <StackLayout Grid.Row="0" VerticalOptions="StartAndExpand">
+            <Image Source="flecha.png" HeightRequest="25"
+                   Margin="10"
+                   HorizontalOptions="Start">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding Regresarcommand}"/>
+                </Image.GestureRecognizers>
+            </Image>
+        </StackLayout>
+
+        <StackLayout Grid.Row="1" IsVisible="{Binding Alimentos}" HorizontalOptions="CenterAndExpand">
+            <Label Text="Alimentos" TextColor="#017351" FontSize="28" HorizontalOptions="Center" FontAttributes="Bold"/>
+
+            <Frame Padding="0" BackgroundColor="#A8DDB5" CornerRadius="40" Margin="20,0">
+                <StackLayout HorizontalOptions="CenterAndExpand" Margin="30">
+
+                    <Label Text="1. Elegir una dieta más baja en la cadena alimentaria (los lácteos y carnes son de los productos que más emisiones genera)."
+                       TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+
+                    <Label Text="2. Reducir empaquetados individuales y de un solo uso." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+                    <Label Text="3. Comprar productos locales reduce el impacto del transporte." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+                    <Label Text="4. Reducir el desperdicio de comida a lo menor posible." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+                    <Label Text="5. Hacer composta integra el carbono de los desechos en abono para el jardín o áreas verdes." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+                    <Label Text="6. Tener un huerto en casa aprovecha el abono de composta y produce el alimento en casa." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+
+                    <lottie:AnimationView Animation="alimentos.json" AutoPlay="True" HeightRequest="210" RepeatMode="Infinite" Margin="0,50,0,0"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+        
+        <StackLayout Grid.Row="1" IsVisible="{Binding Ropa}" HorizontalOptions="CenterAndExpand">
+            <Label Text="Ropa" TextColor="#017351" FontSize="28" HorizontalOptions="Center" FontAttributes="Bold"/>
+
+            <Frame Padding="0" BackgroundColor="#A8DDB5" CornerRadius="40" Margin="20,0">
+                <StackLayout HorizontalOptions="CenterAndExpand" Margin="30">
+
+                    <Label Text="1. Reducir, reparar, reusar, reciclar…"
+                       TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+
+                    <Label Text="2. Evitar el &quot;Fast fashion&quot;" TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+                    <Label Text="3. Comprar ropa de segunda mano." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+                    <Label Text="4. Lavar ropa con agua fría y secar afuera." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+                    <Label Text="5. Evitar usar la secadora." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+                    <Label Text="6. Utilizar el agua de la lavadora para el jardín." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+                    <Label Text="7. Utilizar jabones amigables con el medio ambiente." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+
+                    <lottie:AnimationView Animation="Ropa.json" AutoPlay="True" HeightRequest="210" RepeatMode="Infinite" Margin="0,50,0,0"/>
+                </StackLayout>
+
+            </Frame>
+        </StackLayout>
+        
+        <StackLayout Grid.Row="1" IsVisible="{Binding Hogar}" HorizontalOptions="CenterAndExpand">
+            <Label Text="Hogar" TextColor="#017351" FontSize="28" HorizontalOptions="Center" FontAttributes="Bold"/>
+
+            <Frame Padding="0" BackgroundColor="#A8DDB5" CornerRadius="40" Margin="20,0">
+                <StackLayout HorizontalOptions="CenterAndExpand" Margin="30">
+
+                    <Label Text="1. Optar por medios alternativos para generar energía (paneles solares etc.)." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+                    <Label Text="2. Utilizar opción de ahorro de energía para laptops y computadoras de escritorio." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+                    <Label Text="3. Usar focos leds y apagar los interruptores cuando no se están usando los aparatos o luces." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+                    <Label Text="4. Bajarle la temperatura al boiler." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+                    <Label Text="5. Utilizar regaderas ahorradoras de agua." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+                    <Label Text="6. Utilizar el agua de la lavadora para el jardín." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+                    <Label Text="7. Recolectar en una cubeta el agua que sale en lo que se calienta el agua de la regadera para usarla en el inodoro." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+
+                    <lottie:AnimationView Animation="hogar.json" AutoPlay="True" HeightRequest="180" RepeatMode="Infinite"/>
+                </StackLayout>
+
+            </Frame>
+        </StackLayout>
+
+        <StackLayout Grid.Row="1" IsVisible="{Binding Transporte}" HorizontalOptions="CenterAndExpand">
+            <Label Text="Transporte" TextColor="#017351" FontSize="28" HorizontalOptions="Center" FontAttributes="Bold"/>
+
+            <Frame Padding="0" BackgroundColor="#A8DDB5" CornerRadius="40" Margin="20,0,20,0">
+                <StackLayout HorizontalOptions="CenterAndExpand" Margin="30">
+
+                    <Label Text="1. Manejar menos." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+                    <Label Text="2. Planear bien las salidas para hacer varios pendientes en un solo viaje." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+                    <Label Text="3. Manejar menos agresivo, evitar acelerar y frenar puede reducir el gasto de combustible hasta un 40% y el desgaste innecesario del carro." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+                    <Label Text="4. Tener el auto en óptimas condiciones mecánicas." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+                    <Label Text="5. Si va a comprar un nuevo vehículo considere comprar un híbrido o eléctrico." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+                    <Label Text="6. Evitar volar en avión cuando no es necesario." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+                    <Label Text="7. Evitar escalas en viajes de avión." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+
+                    <lottie:AnimationView Animation="transporte.json" AutoPlay="True" HeightRequest="260" RepeatMode="Infinite"/>
+                </StackLayout>
+
+            </Frame>
+        </StackLayout>
+
+        <StackLayout Grid.Row="1" IsVisible="{Binding Construccion}" HorizontalOptions="CenterAndExpand">
+            <Label Text="Arquitectura y construcción" TextColor="#017351" FontSize="28" HorizontalOptions="Center" FontAttributes="Bold"/>
+
+            <Frame Padding="0" BackgroundColor="#A8DDB5" CornerRadius="40" Margin="20,0">
+                <StackLayout HorizontalOptions="CenterAndExpand" Margin="30">
+
+                    <Label Text="1. Construir con materiales más amigables con el medio ambiente." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+                    <Label Text="2. Construir con materiales de reusó, como plásticos, botellas, llantas, barro y tierra." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+                    <Label Text="3. Que el diseño sea orientado para tener buena regulación de temperatura e iluminación con esto se evita el uso de aire acondicionado y luces en el día." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+                    
+
+                    <lottie:AnimationView Animation="construccion.json" AutoPlay="True" HeightRequest="350" RepeatMode="Infinite"/>
+                </StackLayout>
+
+            </Frame>
+        </StackLayout>
+
+        <StackLayout Grid.Row="1" IsVisible="{Binding Jardin}" HorizontalOptions="CenterAndExpand">
+            <Label Text="Jardín y áreas verdes" TextColor="#017351" FontSize="28" HorizontalOptions="Center" FontAttributes="Bold"/>
+
+            <Frame Padding="0" BackgroundColor="#A8DDB5" CornerRadius="40" Margin="20,0">
+                <StackLayout HorizontalOptions="CenterAndExpand" Margin="30">
+
+                    <Label Text="1. Utilizar vegetación nativa, ya que reduce el uso de agua, y los desechos orgánicos integrarlos al suelo en vez de tirarlos a la basura." TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+                    <Label Text="2. Apoyando Carbon offsets o créditos de carbono a quienes se dedican a hacer actividades para mitigar las emisiones de carbono, como reforestar" TextColor="Gray" FontSize="17" Margin="0,0,0,5"/>
+
+                    <lottie:AnimationView Animation="jardin.json" AutoPlay="True" HeightRequest="350" RepeatMode="Infinite"/>
+                </StackLayout>
+
+            </Frame>
+        </StackLayout>
+    </Grid>
+</ContentPage>
